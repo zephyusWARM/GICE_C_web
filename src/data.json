@@ -1,0 +1,2834 @@
+{
+ "qa": [
+  {
+   "n": 1,
+   "cat": {
+    "zh": "選組與研究方向",
+    "en": "Choosing a group and understanding research"
+   },
+   "q": {
+    "zh": "大家都說丙組在做 AI，實際研究內容大概是怎麼樣？",
+    "en": "Everyone says Group C does AI. What does the research actually cover?"
+   },
+   "a": {
+    "zh": [
+     "丙組的研究範圍其實非常廣。近年的研究從機器學習、LLM、機器人學習、電腦視覺、語音與音樂生成，到生醫資料分析、金融科技、資訊安全、無線與衛星網路、訊號處理，甚至量子資訊與資訊理論都有。不同實驗室做研究的方式差異也很大，有些偏數學與理論分析，有些主要訓練模型、處理大型資料，有些則著重網路與系統實作或跨領域應用。因此如果正在選教授，比起只看「AI、資料科學」這類大標籤，更值得直接看各實驗室近幾年的論文與碩論題目，因為即使都屬於丙組，實際每天做的事情可能完全不同。"
+    ],
+    "en": [
+     "Group C covers a very broad range of research. Recent work spans machine learning, LLMs, robot learning, computer vision, speech and music generation, biomedical data analysis, financial technology, information security, wireless and satellite networks, signal processing, and even quantum information and information theory. The ways labs conduct research also differ considerably: some emphasize mathematics and theoretical analysis, some mainly train models and work with large datasets, while others focus on networking, system implementation or interdisciplinary applications. If you are choosing an advisor, it is therefore more useful to look directly at each lab’s recent papers and master’s thesis topics than to rely on broad labels such as “AI” or “data science.” Even within Group C, the things you do every day can be completely different."
+    ]
+   }
+  },
+  {
+   "n": 2,
+   "cat": {
+    "zh": "選組與研究方向",
+    "en": "Choosing a group and understanding research"
+   },
+   "q": {
+    "zh": "做研究通常是怎樣的流程？和大學修課最大差別在哪？",
+    "en": "What does research involve, and how is it different from undergraduate courses?"
+   },
+   "a": {
+    "zh": [
+     "大學修課通常有明確進度、指定教材與標準答案；研究所則是在探索沒有現成解答的問題。常見流程是先閱讀大量相關文獻，找出目前方法還沒解決好的地方，再設計自己的方法、跑實驗、分析結果，最後根據結果反覆修改。",
+     "需要適應的通常不是某一門知識特別難，而是研究可能很長一段時間都沒有明確的回饋。方法可能沒有效果、程式可能一直出錯，甚至做到一半才發現別人已經發表類似成果，因此自主找資料、判斷下一步和持續推進的能力會變得很重要。"
+    ],
+    "en": [
+     "Undergraduate courses usually have a clear schedule, assigned materials and standard answers. Graduate research explores problems without ready-made solutions. A common process is to read extensively, identify what existing methods do not solve well, design your own approach, run experiments, analyze the results, and then revise repeatedly in light of what you find.",
+     "The main adjustment is often not that a particular subject is exceptionally difficult, but that research can go for a long time without clear feedback. A method may not work, your code may keep breaking, or you may discover halfway through that someone else has already published a similar result. Finding information independently, deciding what to do next and continuing to make progress become very important."
+    ]
+   }
+  },
+  {
+   "n": 3,
+   "cat": {
+    "zh": "選組與研究方向",
+    "en": "Choosing a group and understanding research"
+   },
+   "q": {
+    "zh": "進入丙組需要具備很強的程式能力嗎？",
+    "en": "Do I need to be a very strong programmer to join Group C?"
+   },
+   "a": {
+    "zh": [
+     "不用到競賽選手的程度，但如果想走機器學習、電腦視覺或資料相關方向，Python 和主流深度學習框架，例如 PyTorch，最好能熟練使用。",
+     "研究通常不是從零開始把所有東西自己寫一遍，而是建立在論文作者或其他研究團隊公開的程式碼上。因此，很核心的一項能力，是能快速看懂 GitHub 上既有專案的結構，知道模型、資料處理、訓練流程分別在哪裡，接著依照自己的研究需求修改模型架構、loss function、資料前處理或實驗設定。讀懂陌生程式碼與 debug 往往更加重要。"
+    ],
+    "en": [
+     "You do not need to be a competitive programmer. However, if you want to work in machine learning, computer vision or data-related research, it is helpful to be comfortable with Python and mainstream deep-learning frameworks such as PyTorch.",
+     "Research usually builds on code released by paper authors or other research teams rather than rewriting everything from scratch. One essential skill is quickly understanding the structure of an unfamiliar GitHub project: locating the model, data processing and training pipeline, then modifying the architecture, loss function, preprocessing or experimental settings for your own research. Reading unfamiliar code and debugging are often even more important."
+    ]
+   }
+  },
+  {
+   "n": 4,
+   "cat": {
+    "zh": "選組與研究方向",
+    "en": "Choosing a group and understanding research"
+   },
+   "q": {
+    "zh": "大學時期有必要先做專題嗎？",
+    "en": "Should I do a research project as an undergraduate?"
+   },
+   "a": {
+    "zh": [
+     "如果有機會，建議至少做過一次。因為喜歡一門課，不代表一定喜歡做研究。",
+     "專題最重要的功能是提早體驗真正的研究過程：讀不熟悉的論文、使用沒學過的工具、自己找問題、實驗失敗後重新調整方向。"
+    ],
+    "en": [
+     "If you have the opportunity, we recommend doing at least one. Enjoying a course does not necessarily mean you will enjoy research.",
+     "The most valuable purpose of an undergraduate project is to experience the actual research process early: reading unfamiliar papers, using tools you have not learned, identifying problems yourself, and adjusting direction after experiments fail."
+    ]
+   }
+  },
+  {
+   "n": 5,
+   "cat": {
+    "zh": "教授與實驗室",
+    "en": "Advisors and labs"
+   },
+   "q": {
+    "zh": "找教授之前，應該先向學長姐了解哪些資訊？",
+    "en": "What should I ask current students before approaching a professor?"
+   },
+   "a": {
+    "zh": [
+     "實驗室網站通常只會寫研究方向，真正影響碩士生活的細節最好直接問在學學長姐。",
+     "最值得了解的是老師實際怎麼帶學生，例如多久開一次 meeting、卡關時老師會不會給具體方向，還是希望學生自己摸索；研究題目是老師直接指定計畫，還是讓學生自己找題目；歷屆學生通常多久畢業、是否有論文發表要求；以及平常是否需要固定進實驗室、是否有產學計畫或其他工作需要負責。",
+     "另外可以直接問一句：「如果重新選一次，你還會選這個 Lab 嗎？」通常比問「實驗室氣氛好不好」更容易得到有資訊量的答案。當然，也可以很直觀地看看學長姐的眼神還有沒有光。"
+    ],
+    "en": [
+     "Lab websites usually describe research areas. For the details that will really affect your master’s experience, it is best to ask students who are currently in the lab.",
+     "It is especially useful to understand how the professor actually supervises students: how often meetings take place; whether the professor offers concrete direction when you get stuck or expects you to explore independently; whether topics are assigned through projects or developed by students; how long previous students usually took to graduate; whether publication is required; whether regular attendance is expected; and whether you will have industry collaborations or other duties to handle.",
+     "You can also ask directly: “If you were choosing again, would you still choose this lab?” That often yields more useful information than “Is the atmosphere good?” And, of course, you can take a very intuitive look at whether the students still have a spark in their eyes."
+    ]
+   }
+  },
+  {
+   "n": 6,
+   "cat": {
+    "zh": "教授與實驗室",
+    "en": "Advisors and labs"
+   },
+   "q": {
+    "zh": "選 Lab 時，研究題目、指導教授、實驗室風氣該如何權衡？",
+    "en": "How should I weigh the topic, advisor and lab environment?"
+   },
+   "a": {
+    "zh": [
+     "如果是碩士班，指導教授的風格與實驗室環境放在研究題目前面。",
+     "原因是碩士研究題目常常會隨著研究進度、新論文出現或計畫方向而調整，但教授的指導方式、實驗室文化與工作節奏通常比較固定。題目很喜歡，但和老師溝通方式完全不合，兩年可能會過得很辛苦；反過來，題目不是原本最理想的方向，但教授願意指導、Lab 互動正常，有學長姐照顧可以談心，也可能做得很開心。",
+     "所以最好的方式是實際和教授及學長姐談過後決定。"
+    ],
+    "en": [
+     "For a master’s degree, put the advisor’s mentoring style and the lab environment ahead of the research topic.",
+     "Master’s topics often change as research progresses, new papers appear or project directions shift. Mentoring style, lab culture and working rhythm tend to be more stable. You may love a topic, but if you and the professor communicate in completely incompatible ways, those two years can be difficult. Conversely, even if the topic is not your original ideal, a supportive advisor, healthy lab interactions and senior students you can talk to can make the experience enjoyable.",
+     "The best approach is to talk with both the professor and current students before deciding."
+    ]
+   }
+  },
+  {
+   "n": 7,
+   "cat": {
+    "zh": "教授與實驗室",
+    "en": "Advisors and labs"
+   },
+   "q": {
+    "zh": "寄信給教授約面談時，該如何準備？",
+    "en": "How should I prepare an email requesting a meeting with a professor?"
+   },
+   "a": {
+    "zh": [
+     "信件不用太長，重點是讓教授快速知道你是誰、為什麼找他，以及你是否真的了解他的研究方向。",
+     "可以簡單交代學校、科系、成績與相關經驗，附上一頁履歷與成績單，再指出自己對實驗室哪一個具體研究方向或近期成果有興趣，最後詢問是否方便安排短時間面談。比起寫「我對 AI 很有熱忱」，直接提到一個實驗室正在做的題目會更有說服力。",
+     "面談前至少應該看過實驗室最近幾年的研究方向，挑一兩篇論文讀摘要、方法概念與結論。不一定要完全看懂數學細節，但最好能說清楚這篇工作想解決什麼問題，以及為什麼對它有興趣。"
+    ],
+    "en": [
+     "The email does not need to be long. The point is to help the professor quickly understand who you are, why you are contacting them and whether you actually know their research.",
+     "Briefly introduce your university, department, academic performance and relevant experience. Attach a one-page CV and transcript, identify a specific research direction or recent result from the lab that interests you, and ask whether a short meeting would be possible. Mentioning a topic the lab is actually working on is more convincing than simply saying “I am passionate about AI.”",
+     "Before the meeting, review the lab’s research directions over the past few years and choose one or two papers whose abstracts, main methodological ideas and conclusions you can read. You do not have to understand every mathematical detail, but you should be able to explain the problem the work addresses and why you find it interesting."
+    ]
+   }
+  },
+  {
+   "n": 8,
+   "cat": {
+    "zh": "教授與實驗室",
+    "en": "Advisors and labs"
+   },
+   "q": {
+    "zh": "二推進丙組時，有什麼需要特別注意？",
+    "en": "What should I watch out for when entering through a later recommendation round?"
+   },
+   "a": {
+    "zh": [
+     "二推最大的現實問題通常不是研究所本身，而是教授名額。",
+     "因為時間比較晚，有些熱門實驗室可能已經收了一部分學生，因此錄取之後能選的教授不一定和原本想像的一樣。如果是透過二推進來，建議在決定前先確認目前哪些教授仍可能收學生，以及剩下的研究方向自己是否真的願意做。不要等到錄取後才第一次開始找老師。"
+    ],
+    "en": [
+     "The main practical issue in a later recommendation round is usually advisor capacity, rather than admission to the institute itself.",
+     "Because it happens later, some popular labs may already have accepted students, so the advisors available after admission may differ from what you imagined. Before making a decision through a later round, check which professors might still accept students and whether you would genuinely be willing to work in the remaining research areas. Do not wait until admission to start looking for an advisor for the first time."
+    ]
+   }
+  },
+  {
+   "n": 9,
+   "cat": {
+    "zh": "修課與實習",
+    "en": "Courses and internships"
+   },
+   "q": {
+    "zh": "大學部先修研究所課程對碩士生活有幫助嗎？",
+    "en": "Does taking graduate courses as an undergraduate help?"
+   },
+   "a": {
+    "zh": [
+     "有，而且最直接的好處是減輕碩一的修課負擔。如果能提前抵免部分學分，進入碩士班後就能留下更多完整時間閱讀論文、熟悉實驗室工具與開始研究，不必同時被大量課程和研究進度拉扯。",
+     "另一個好處是可以先試水溫。真正修過一門相關研究所課程後，會比只看課名更清楚自己是否喜歡這個方向。如果原本覺得 AI 很有趣，但實際接觸模型、數學與實驗後發現完全不喜歡，也能在正式選研究方向前就調整。",
+     "還可以藉由修課提早認識教授，從課堂中了解老師是否符合自己嚮往的風格。"
+    ],
+    "en": [
+     "Yes. The most direct benefit is reducing your first-year coursework load. If some credits can be transferred in advance, you can preserve longer blocks of time in the master’s program for reading papers, learning lab tools and starting research, instead of being pulled between many courses and research deadlines.",
+     "Another benefit is testing the waters. Taking a relevant graduate course gives you a clearer idea of whether you like the area than simply reading its title. If AI initially seems exciting but you discover that you dislike working with the models, mathematics and experiments, you can adjust before formally choosing a research direction.",
+     "Courses also let you get to know professors early and observe whether their teaching style fits what you hope for."
+    ]
+   }
+  },
+  {
+   "n": 10,
+   "cat": {
+    "zh": "修課與實習",
+    "en": "Courses and internships"
+   },
+   "q": {
+    "zh": "如果想走機器學習，丙組自己的課就夠了嗎？",
+    "en": "Are Group C courses enough if I want to study machine learning?"
+   },
+   "a": {
+    "zh": [
+     "不一定。機器學習相關課程很多分散在資工、電機、數學等不同系所，有些熱門課程也可能需要加簽。",
+     "如果已經確定自己想走 ML 或較偏理論的方向，不要只依照「丙組課表」安排修課，而應該從自己未來研究需要的能力反推，例如機器學習、深度學習、最佳化、機率、線性代數或特定應用領域，再跨系選課。"
+    ],
+    "en": [
+     "Not necessarily. Machine-learning courses are spread across computer science, electrical engineering, mathematics and other departments, and some popular courses may require an instructor’s enrollment authorization.",
+     "If you know you want to pursue ML or a more theoretical direction, do not plan only around the “Group C course list.” Work backward from the abilities your future research will require—for example, machine learning, deep learning, optimization, probability, linear algebra or a particular application domain—and take courses across departments."
+    ]
+   }
+  },
+  {
+   "n": 11,
+   "cat": {
+    "zh": "修課與實習",
+    "en": "Courses and internships"
+   },
+   "q": {
+    "zh": "碩士期間適合去業界實習嗎？",
+    "en": "Is an industry internship a good idea during a master’s degree?"
+   },
+   "a": {
+    "zh": [
+     "如果目標是畢業後直接進業界，實習可以考慮。它可以讓你提前接觸真正的開發流程，也能確認原本想像中的職位，實際做起來是不是自己喜歡的工作。",
+     "不過實習前一定要充分跟老師溝通，也要評估自己的研究進度。尤其碩二如果正接近論文關鍵階段，實習可能直接和畢業進度衝突。"
+    ],
+    "en": [
+     "If you plan to enter industry immediately after graduation, an internship is worth considering. It lets you experience real development workflows and find out whether the role you imagined is actually work you enjoy.",
+     "Before taking an internship, however, discuss it thoroughly with your advisor and assess your research progress. In particular, an internship during a critical thesis stage in your second year may directly conflict with your graduation schedule."
+    ]
+   }
+  },
+  {
+   "n": 12,
+   "cat": {
+    "zh": "未來職涯",
+    "en": "Future careers"
+   },
+   "q": {
+    "zh": "丙組畢業後通常可以做哪些工作？",
+    "en": "What kinds of careers can Group C graduates pursue?"
+   },
+   "a": {
+    "zh": [
+     "丙組的出路和研究方向連動很大。走機器學習、電腦視覺或語音的人，可能往 AI、演算法或軟體研發發展；做網路、系統或資安的人，則可能進入網路系統、資安或相關研發職位；此外，丙組也有智慧醫療、金融科技等跨領域研究，未來可進一步投入醫療 AI 開發、金融業 AI 應用等工作。訊號處理與其他跨領域應用，也各有對應的產業方向。",
+     "因此求職時，「電信丙組」本身通常不是最重要的標籤。企業更容易從你的碩論、專題、修課、實習與技術能力判斷你適合什麼職位。"
+    ],
+    "en": [
+     "Career paths in Group C depend strongly on the research direction. People working in machine learning, computer vision or speech may pursue AI, algorithm or software R&D roles. Those working on networks, systems or security may enter network systems, cybersecurity or related R&D positions. Group C also includes interdisciplinary research in areas such as smart healthcare and financial technology, which can lead to medical AI development or AI applications in finance. Signal processing and other interdisciplinary applications each have their own corresponding industries.",
+     "When looking for a job, “GICE Group C” is therefore usually not the most important label. Employers are more likely to judge your fit through your thesis, projects, coursework, internships and technical abilities."
+    ]
+   }
+  },
+  {
+   "n": 13,
+   "cat": {
+    "zh": "未來職涯",
+    "en": "Future careers"
+   },
+   "q": {
+    "zh": "如果未來想進業界，研究題目要不要刻意選熱門方向？",
+    "en": "Should I deliberately choose a fashionable research topic if I want to work in industry?"
+   },
+   "a": {
+    "zh": [
+     "不一定要刻意選熱門題目。",
+     "研究所真正重要的訓練，是培養獨立研究、面對問題並解決問題的能力。而在這個過程中累積的模型訓練、資料處理、系統實作、程式工程、文獻閱讀，以及完成大型研究專案的經驗，都能轉移到不同的工作領域——研究題目本身，更像是培養這些能力的「載體」。",
+     "企業在評估一個人時，也不只看你做過什麼題目。有些職缺甚至會直接詢問指導教授，了解你在研究所期間的合作表現：是否願意主動承擔沒人想做的工作、執行力如何、遇到問題是否主動解決、是否好相處，以及「如果再選一次，還願不願意收這個學生」。",
+     "所以比起追逐當下最熱門的題目，更重要的是在研究所期間，真正培養出獨立解決問題、把事情做完、也能與人合作的能力。",
+     "20 幾歲的大家，未來還有很多可能。保持開放、保持彈性、保持謙虛，邊走邊看，一步步解決眼前的問題即可，不必因研究題目過早限制未來。"
+    ],
+    "en": [
+     "You do not necessarily need to choose a fashionable topic deliberately.",
+     "The most important training in graduate school is learning to conduct research independently, face problems and solve them. The model training, data processing, system implementation, software engineering, literature reading and experience of completing a substantial research project that you accumulate can transfer to different fields of work. The topic itself is more like a vehicle for developing these abilities.",
+     "Employers do not only look at the topic you studied. Some positions even involve asking your advisor how you worked with others in graduate school: whether you willingly took on tasks nobody else wanted, how effectively you executed, whether you proactively solved problems, whether you were easy to work with, and “If you could choose again, would you still take this student?”",
+     "Rather than chasing the hottest topic of the moment, it is more important to develop the ability to solve problems independently, finish what you start and collaborate with others.",
+     "In your twenties, many possibilities still lie ahead. Stay open, flexible and humble; learn as you go and solve the problems in front of you step by step. There is no need to let a research topic limit your future too early."
+    ]
+   }
+  }
+ ],
+ "profs": [
+  {
+   "name": {
+    "zh": "林澤",
+    "en": "Che Lin"
+   },
+   "title": {
+    "zh": "教授",
+    "en": "Professor"
+   },
+   "summary": {
+    "zh": "研究怎麼從關係複雜的資料學習、做推薦系統，也用機器學習分析電子病歷等醫療資料。",
+    "en": "Learning from relational data and building recommender systems, plus machine learning on medical data such as health records."
+   },
+   "tags": [
+    {
+     "zh": "圖與關係結構學習",
+     "en": "Graph and relational learning"
+    },
+    {
+     "zh": "推薦系統",
+     "en": "Recommender systems"
+    },
+    {
+     "zh": "生醫資料的機器學習",
+     "en": "Machine learning for biomedical data"
+    }
+   ],
+   "note": null,
+   "more": [],
+   "admit": null,
+   "warn": false,
+   "label": null,
+   "extra": null,
+   "src": [
+    {
+     "zh": "iDSSP 論文列表",
+     "en": "iDSSP publications",
+     "u": "https://www.idssp.ee.ntu.edu.tw/publications"
+    },
+    {
+     "zh": "指導論文列表（臺大論文庫）",
+     "en": "Advised theses (NTU repository)",
+     "u": "https://tdr.lib.ntu.edu.tw/browse?type=advisor&value=che+lin"
+    }
+   ]
+  },
+  {
+   "name": {
+    "zh": "周俊廷",
+    "en": "Chun-Ting Chou"
+   },
+   "title": {
+    "zh": "副教授",
+    "en": "Associate Professor"
+   },
+   "summary": {
+    "zh": "研究背景是無線網路、MAC 協定與物聯網。",
+    "en": "His research background is wireless networking, MAC protocols and IoT."
+   },
+   "tags": [
+    {
+     "zh": "無線網路與 MAC 協定",
+     "en": "Wireless networking and MAC protocols"
+    },
+    {
+     "zh": "物聯網",
+     "en": "Internet of Things"
+    }
+   ],
+   "note": {
+    "zh": "周老師也是動見科技（OmniEyes）的共同創辦人暨執行長。",
+    "en": "He is also co-founder and CEO of OmniEyes."
+   },
+   "more": [
+    {
+     "zh": "可生存虛擬網路映射（2023、2025 指導論文）",
+     "en": "Survivable virtual network embedding (advised theses, 2023 and 2025)"
+    },
+    {
+     "zh": "車用影像：深度估計與車內物件偵測（2023、2026 指導論文）",
+     "en": "Vehicle imaging: depth estimation and in-cabin object detection (advised theses, 2023 and 2026)"
+    }
+   ],
+   "admit": null,
+   "warn": false,
+   "label": {
+    "zh": "研究背景",
+    "en": "Background"
+   },
+   "extra": null,
+   "src": [
+    {
+     "zh": "2023 指導論文（可生存虛擬網路嵌入）",
+     "en": "2023 advised thesis (survivable VNE)",
+     "u": "https://tdr.lib.ntu.edu.tw/handle/123456789/88934"
+    },
+    {
+     "zh": "2025 指導論文（可生存虛擬網路映射）",
+     "en": "2025 advised thesis (survivable VN mapping)",
+     "u": "https://tdr.lib.ntu.edu.tw/handle/123456789/98099"
+    },
+    {
+     "zh": "2023 指導論文（單目相機深度估計）",
+     "en": "2023 advised thesis (monocular depth)",
+     "u": "https://tdr.lib.ntu.edu.tw/handle/123456789/86996"
+    },
+    {
+     "zh": "2026 指導論文（車內物件偵測）",
+     "en": "2026 advised thesis (in-cabin detection)",
+     "u": "https://tdr.lib.ntu.edu.tw/handle/123456789/102339"
+    },
+    {
+     "zh": "OmniEyes 公司介紹",
+     "en": "OmniEyes about page",
+     "u": "https://theomnieyes.com/about/"
+    }
+   ]
+  },
+  {
+   "name": {
+    "zh": "簡翌",
+    "en": "Eli Chien"
+   },
+   "title": {
+    "zh": "助理教授",
+    "en": "Assistant Professor"
+   },
+   "summary": {
+    "zh": "研究 AI 怎麼保護訓練資料的隱私、怎麼讓模型忘掉指定的資料，也做圖機器學習。",
+    "en": "How AI can protect the privacy of training data and forget specified data, plus graph machine learning."
+   },
+   "tags": [
+    {
+     "zh": "機器學習隱私與差分隱私",
+     "en": "ML privacy and differential privacy"
+    },
+    {
+     "zh": "機器遺忘",
+     "en": "Machine unlearning"
+    },
+    {
+     "zh": "圖機器學習",
+     "en": "Graph machine learning"
+    }
+   ],
+   "note": null,
+   "more": [],
+   "admit": null,
+   "warn": false,
+   "label": null,
+   "extra": null,
+   "src": [
+    {
+     "zh": "個人論文列表",
+     "en": "Publications",
+     "u": "https://sites.google.com/view/eli-chien/publications"
+    }
+   ]
+  },
+  {
+   "name": {
+    "zh": "鄭皓中",
+    "en": "Hao-Chung Cheng"
+   },
+   "title": {
+    "zh": "副教授",
+    "en": "Associate Professor"
+   },
+   "summary": {
+    "zh": "用數學推導量子通訊與量子資訊處理的極限。",
+    "en": "Mathematical limits of quantum communication and quantum information processing."
+   },
+   "tags": [
+    {
+     "zh": "量子資訊理論",
+     "en": "Quantum information theory"
+    },
+    {
+     "zh": "量子通訊",
+     "en": "Quantum communication"
+    }
+   ],
+   "note": null,
+   "more": [
+    {
+     "zh": "量子隱私與隱私放大（2022 年起多篇論文）",
+     "en": "Quantum privacy and privacy amplification (several papers since 2022)"
+    },
+    {
+     "zh": "量子機器學習與量子電路（2022–2025 論文與指導論文）",
+     "en": "Quantum machine learning and quantum circuits (papers and advised theses, 2022–2025)"
+    },
+    {
+     "zh": "量子亂數產生（2025、2026 指導論文）",
+     "en": "Quantum random number generation (advised theses, 2025 and 2026)"
+    }
+   ],
+   "admit": null,
+   "warn": false,
+   "label": null,
+   "extra": null,
+   "src": [
+    {
+     "zh": "2022 隱私放大論文",
+     "en": "2022 privacy amplification paper",
+     "u": "https://arxiv.org/abs/2202.10263"
+    },
+    {
+     "zh": "2024 量子隱私機制論文",
+     "en": "2024 quantum privacy paper",
+     "u": "https://arxiv.org/abs/2403.14450"
+    },
+    {
+     "zh": "2025 量子電路學習論文",
+     "en": "2025 quantum circuit learning paper",
+     "u": "https://scholars.lib.ntu.edu.tw/entities/publication/b7908e5e-0861-4e43-8003-4367b96e0cc3"
+    },
+    {
+     "zh": "2025 指導論文（量子亂數）",
+     "en": "2025 advised thesis (quantum RNG)",
+     "u": "https://tdr.lib.ntu.edu.tw/handle/123456789/96782"
+    },
+    {
+     "zh": "2026 指導論文（量子亂數萃取器）",
+     "en": "2026 advised thesis (QRNG extractor)",
+     "u": "https://tdr.lib.ntu.edu.tw/handle/123456789/102831"
+    }
+   ]
+  },
+  {
+   "name": {
+    "zh": "蘇炫榮",
+    "en": "Hsuan-Jung Su"
+   },
+   "title": {
+    "zh": "教授",
+    "en": "Professor"
+   },
+   "tags": [
+    {
+     "zh": "通訊訊號處理：通道估計與波束成形",
+     "en": "Communication signal processing: channel estimation and beamforming"
+    },
+    {
+     "zh": "編碼與調變",
+     "en": "Coding and modulation"
+    },
+    {
+     "zh": "無線接取與多重接取",
+     "en": "Wireless access and multiple access"
+    }
+   ],
+   "summary": {
+    "zh": "研究無線訊號怎麼編碼、估計通道和正確接收，也研究讓大量裝置同時連線的多重接取技術。",
+    "en": "How wireless signals are coded, how channels are estimated and signals received correctly, and multiple-access techniques that let many devices connect at once."
+   },
+   "note": null,
+   "more": [
+    {
+     "zh": "OTFS 通道估測（2024 指導論文、2026 論文）",
+     "en": "OTFS channel estimation (advised thesis 2024, paper 2026)"
+    },
+    {
+     "zh": "低軌衛星與非地面網路的訊號處理（2023、2026 指導論文）",
+     "en": "Signal processing for LEO and non-terrestrial networks (advised theses, 2023 and 2026)"
+    },
+    {
+     "zh": "到達角估計與 MIMO 雷達（2023–2025 多篇指導論文）",
+     "en": "Direction-of-arrival estimation and MIMO radar (several advised theses, 2023–2025)"
+    }
+   ],
+   "admit": {
+    "zh": "依電信所官網註記：蘇老師在本所一般生僅招收指導乙組（主修通訊與信號處理）研究生。",
+    "en": "GICE website note: Prof. Su advises general-admission students of this institute in Group B (communications and signal processing) only."
+   },
+   "warn": true,
+   "label": null,
+   "extra": null,
+   "src": [
+    {
+     "zh": "指導論文列表（臺大論文庫）",
+     "en": "Advised theses (NTU repository)",
+     "u": "https://tdr.lib.ntu.edu.tw/browse?order=ASC&rpp=20&type=advisor&value=hsuan-jung+su"
+    },
+    {
+     "zh": "2026 OTFS 通道估測論文",
+     "en": "2026 OTFS channel estimation paper",
+     "u": "https://arxiv.org/abs/2601.20827"
+    }
+   ]
+  },
+  {
+   "name": {
+    "zh": "李宏毅",
+    "en": "Hung-yi Lee"
+   },
+   "title": {
+    "zh": "教授",
+    "en": "Professor"
+   },
+   "summary": {
+    "zh": "讓 AI 聽懂聲音、用語音對話，研究語音和音訊模型怎麼訓練與評估。",
+    "en": "AI that understands sound and holds spoken conversations: how speech and audio models are trained and evaluated."
+   },
+   "tags": [
+    {
+     "zh": "語音與音訊機器學習",
+     "en": "Speech and audio machine learning"
+    },
+    {
+     "zh": "口語語言模型",
+     "en": "Spoken language models"
+    }
+   ],
+   "note": null,
+   "more": [
+    {
+     "zh": "大型語言模型的調整、效率與安全（2023–2025 多篇指導論文）",
+     "en": "Adapting large language models: efficiency and safety (several advised theses, 2023–2025)"
+    },
+    {
+     "zh": "語音防偽與偽造語音偵測（2023、2025 指導論文）",
+     "en": "Anti-spoofing and fake-speech detection (advised theses, 2023 and 2025)"
+    }
+   ],
+   "admit": null,
+   "warn": false,
+   "label": null,
+   "extra": null,
+   "src": [
+    {
+     "zh": "個人論文列表",
+     "en": "Publications",
+     "u": "https://speech.ee.ntu.edu.tw/~hylee/publication.php"
+    },
+    {
+     "zh": "2025 指導論文（LLM 微調安全性）",
+     "en": "2025 advised thesis (LLM fine-tuning safety)",
+     "u": "https://tdr.lib.ntu.edu.tw/handle/123456789/97758"
+    },
+    {
+     "zh": "2023 指導論文（聲紋防偽）",
+     "en": "2023 advised thesis (anti-spoofing)",
+     "u": "https://tdr.lib.ntu.edu.tw/handle/123456789/96154"
+    },
+    {
+     "zh": "2025 指導論文（部分偽造語音偵測）",
+     "en": "2025 advised thesis (partially spoofed audio)",
+     "u": "https://tdr.lib.ntu.edu.tw/handle/123456789/97711"
+    }
+   ]
+  },
+  {
+   "name": {
+    "zh": "謝宏昀",
+    "en": "Hung-Yun Hsieh"
+   },
+   "title": {
+    "zh": "教授",
+    "en": "Professor"
+   },
+   "summary": {
+    "zh": "用 WiFi 訊號偵測跌倒、估計人的姿勢和位置，也研究無線網路資源分配，以及 360 度影片、XR 內容怎麼透過網路與邊緣伺服器傳得更順。",
+    "en": "Using WiFi signals to detect falls and estimate pose and position, plus wireless resource allocation and smoother delivery of 360-degree and XR content over networks and edge servers."
+   },
+   "tags": [
+    {
+     "zh": "WiFi 無線感測",
+     "en": "WiFi wireless sensing"
+    },
+    {
+     "zh": "無線網路資源分配",
+     "en": "Wireless resource allocation"
+    },
+    {
+     "zh": "多媒體與 XR 網路傳輸",
+     "en": "Multimedia and XR networking"
+    }
+   ],
+   "note": null,
+   "more": [
+    {
+     "zh": "低軌衛星通訊：波束成形與同步（2025 年起）",
+     "en": "LEO satellite communication: beamforming and synchronization (since 2025)"
+    },
+    {
+     "zh": "WiFi 感測的隱私威脅與防護（2025 年起）",
+     "en": "Privacy threats and defenses in WiFi sensing (since 2025)"
+    },
+    {
+     "zh": "網路入侵與進階持續性威脅（APT）偵測（2023–2025 指導論文）",
+     "en": "Network intrusion and APT detection (advised theses, 2023–2025)"
+    }
+   ],
+   "admit": null,
+   "warn": false,
+   "label": null,
+   "extra": null,
+   "src": [
+    {
+     "zh": "TONIC 論文列表",
+     "en": "TONIC publications",
+     "u": "https://tonic.ee.ntu.edu.tw/paper.html"
+    },
+    {
+     "zh": "2026 指導論文（低軌衛星同步）",
+     "en": "2026 advised thesis (LEO synchronization)",
+     "u": "https://tdr.lib.ntu.edu.tw/jspui/handle/123456789/102031"
+    },
+    {
+     "zh": "2025 指導論文（WiFi 感測隱私威脅）",
+     "en": "2025 advised thesis (WiFi sensing privacy threat)",
+     "u": "https://tdr.lib.ntu.edu.tw/handle/123456789/97018"
+    },
+    {
+     "zh": "2025 指導論文（APT 偵測）",
+     "en": "2025 advised thesis (APT detection)",
+     "u": "https://tdr.lib.ntu.edu.tw/handle/123456789/97013"
+    }
+   ]
+  },
+  {
+   "name": {
+    "zh": "魏宏宇",
+    "en": "Hung-Yu Wei"
+   },
+   "title": {
+    "zh": "教授",
+    "en": "Professor"
+   },
+   "summary": {
+    "zh": "研究手機和物聯網裝置怎麼接入網路、省電與分配資源，也研究換手，以及邊緣與雲端服務的部署和調度。",
+    "en": "How phones and IoT devices access the network, save energy and share resources, plus handover and the placement and orchestration of edge and cloud services."
+   },
+   "tags": [
+    {
+     "zh": "無線接取與資源管理",
+     "en": "Radio access and resource management"
+    },
+    {
+     "zh": "行動網路與換手",
+     "en": "Mobile networking and handover"
+    },
+    {
+     "zh": "邊緣與雲端服務管理",
+     "en": "Edge and cloud service management"
+    }
+   ],
+   "note": null,
+   "more": [
+    {
+     "zh": "低軌衛星網路：負載平衡與軟體定義網路（2025 年起）",
+     "en": "LEO satellite networks: load balancing and software-defined networking (since 2025)"
+    },
+    {
+     "zh": "行動網路的多播與廣播服務（2023–2024 多篇指導論文）",
+     "en": "Multicast and broadcast services in mobile networks (several advised theses, 2023–2024)"
+    },
+    {
+     "zh": "電動車充電與車網互動（V2G）排程（2025–2026 多篇指導論文）",
+     "en": "EV charging and vehicle-to-grid scheduling (several advised theses, 2025–2026)"
+    }
+   ],
+   "admit": null,
+   "warn": false,
+   "label": null,
+   "extra": null,
+   "src": [
+    {
+     "zh": "指導論文列表（臺大論文庫）",
+     "en": "Advised theses (NTU repository)",
+     "u": "https://tdr.lib.ntu.edu.tw/browse?type=advisor&value=hung-yu+wei"
+    },
+    {
+     "zh": "2025 指導論文（低軌衛星負載平衡）",
+     "en": "2025 advised thesis (LEO load balancing)",
+     "u": "https://tdr.lib.ntu.edu.tw/handle/123456789/99172"
+    },
+    {
+     "zh": "2023 指導論文（多播廣播系統）",
+     "en": "2023 advised thesis (multicast/broadcast)",
+     "u": "https://tdr.lib.ntu.edu.tw/handle/123456789/87343"
+    },
+    {
+     "zh": "2025 指導論文（V2G 排程）",
+     "en": "2025 advised thesis (V2G scheduling)",
+     "u": "https://tdr.lib.ntu.edu.tw/handle/123456789/100166"
+    }
+   ]
+  },
+  {
+   "name": {
+    "zh": "王奕翔",
+    "en": "I-Hsiang Wang"
+   },
+   "title": {
+    "zh": "教授",
+    "en": "Professor"
+   },
+   "summary": {
+    "zh": "用數學回答資訊處理和學習的極限，例如要看多少資料才能做出可靠的判斷。",
+    "en": "Mathematical limits of information processing and learning, such as how much data a reliable decision needs."
+   },
+   "tags": [
+    {
+     "zh": "資訊理論",
+     "en": "Information theory"
+    },
+    {
+     "zh": "理論統計與序列推論",
+     "en": "Theoretical statistics and sequential inference"
+    },
+    {
+     "zh": "統計學習的基礎問題",
+     "en": "Foundations of statistical learning"
+    }
+   ],
+   "note": null,
+   "more": [],
+   "admit": null,
+   "warn": false,
+   "label": null,
+   "extra": null,
+   "src": [
+    {
+     "zh": "NIC Lab 研究介紹",
+     "en": "NIC Lab research",
+     "u": "https://cc.ee.ntu.edu.tw/~ihsiangw/NICLab/NIC.html"
+    }
+   ]
+  },
+  {
+   "name": {
+    "zh": "丁建均",
+    "en": "Jian-Jiun Ding"
+   },
+   "title": {
+    "zh": "教授",
+    "en": "Professor"
+   },
+   "summary": {
+    "zh": "把模糊、起霧、雜訊多的影像變清楚，也研究頻率會隨時間變化的訊號要怎麼分析。",
+    "en": "Making blurry, hazy or noisy images clear, and analyzing signals whose frequency changes over time."
+   },
+   "tags": [
+    {
+     "zh": "影像處理與電腦視覺",
+     "en": "Image processing and computer vision"
+    },
+    {
+     "zh": "時頻分析與訊號處理",
+     "en": "Time–frequency analysis and signal processing"
+    }
+   ],
+   "note": null,
+   "more": [
+    {
+     "zh": "哼唱檢索（2022、2025 指導論文）",
+     "en": "Query by humming (advised theses, 2022 and 2025)"
+    },
+    {
+     "zh": "語音增強與語音分離（2023、2025 指導論文）",
+     "en": "Speech enhancement and speaker separation (advised theses, 2023 and 2025)"
+    },
+    {
+     "zh": "醫學超音波影像分析（2024、2025 指導論文）",
+     "en": "Medical ultrasound image analysis (advised theses, 2024 and 2025)"
+    }
+   ],
+   "admit": null,
+   "warn": false,
+   "label": null,
+   "extra": null,
+   "src": [
+    {
+     "zh": "2022 指導論文（哼唱檢索）",
+     "en": "2022 advised thesis (query by humming)",
+     "u": "https://tdr.lib.ntu.edu.tw/handle/123456789/83095"
+    },
+    {
+     "zh": "2025 指導論文（哼唱檢索）",
+     "en": "2025 advised thesis (query by humming)",
+     "u": "https://tdr.lib.ntu.edu.tw/handle/123456789/99071"
+    },
+    {
+     "zh": "2024 指導論文（超音波影像）",
+     "en": "2024 advised thesis (ultrasound)",
+     "u": "https://tdr.lib.ntu.edu.tw/handle/123456789/91433"
+    },
+    {
+     "zh": "2023 指導論文（雜訊去除與語音分離）",
+     "en": "2023 advised thesis (noise removal and speaker separation)",
+     "u": "https://tdr.lib.ntu.edu.tw/handle/123456789/88836"
+    },
+    {
+     "zh": "2025 指導論文（語音增強）",
+     "en": "2025 advised thesis (speech enhancement)",
+     "u": "https://tdr.lib.ntu.edu.tw/handle/123456789/98635"
+    }
+   ]
+  },
+  {
+   "name": {
+    "zh": "劉子毓",
+    "en": "Tzu-Yu Liu"
+   },
+   "title": {
+    "zh": "副教授",
+    "en": "Associate Professor"
+   },
+   "summary": {
+    "zh": "從生醫和計算生物問題出發做統計與機器學習，把基因、病理影像等不同資料放在一起分析。",
+    "en": "Statistics and machine learning driven by biomedical and computational-biology questions, analyzing genes, pathology images and other data together."
+   },
+   "tags": [
+    {
+     "zh": "生醫與計算生物的統計機器學習",
+     "en": "Statistical ML for biomedicine and computational biology"
+    },
+    {
+     "zh": "生醫資料融合",
+     "en": "Biomedical data integration"
+    }
+   ],
+   "note": null,
+   "more": [],
+   "admit": null,
+   "warn": false,
+   "label": null,
+   "extra": null,
+   "src": [
+    {
+     "zh": "M2 Lab 研究介紹",
+     "en": "M2 Lab research overview",
+     "u": "https://sites.google.com/view/joyliu-m2lab/home/research-overview"
+    }
+   ]
+  },
+  {
+   "name": {
+    "zh": "陳銘憲",
+    "en": "Ming-Syan Chen"
+   },
+   "title": {
+    "zh": "教授",
+    "en": "Professor"
+   },
+   "summary": {
+    "zh": "研究包括從大量資料找出規律的資料探勘，以及讓 AI 模型變小、變快的模型壓縮。",
+    "en": "Research includes data mining, which finds patterns in large data, and model compression, which makes AI models smaller and faster."
+   },
+   "tags": [
+    {
+     "zh": "資料探勘",
+     "en": "Data mining"
+    },
+    {
+     "zh": "模型壓縮與高效率 AI",
+     "en": "Model compression and efficient AI"
+    }
+   ],
+   "note": null,
+   "more": [
+    {
+     "zh": "圖資料分析與圖神經網路（指導論文，並與其他實驗室長期合作）",
+     "en": "Graph data analysis and graph neural networks (advised theses, plus long-standing collaboration)"
+    },
+    {
+     "zh": "檢索增強生成（RAG）與大型語言模型應用（2024 年起多篇指導論文）",
+     "en": "Retrieval-augmented generation and LLM applications (several advised theses since 2024)"
+    },
+    {
+     "zh": "機器學習安全：後門攻擊、對抗攻擊與深偽偵測（2022–2024 多篇指導論文）",
+     "en": "ML security: backdoors, adversarial attacks and deepfake detection (several advised theses, 2022–2024)"
+    }
+   ],
+   "admit": null,
+   "warn": false,
+   "label": null,
+   "extra": null,
+   "src": [
+    {
+     "zh": "個人網頁",
+     "en": "Homepage",
+     "u": "https://arbor.ee.ntu.edu.tw/~mschen/"
+    },
+    {
+     "zh": "指導論文列表（臺大論文庫）",
+     "en": "Advised theses (NTU repository)",
+     "u": "https://tdr.lib.ntu.edu.tw/handle/123456789/156/browse?etal=-1&order=ASC&rpp=20&sort_by=1&starts_with=0&type=advisor&value=ming-syan+chen"
+    }
+   ]
+  },
+  {
+   "name": {
+    "zh": "葉丙成",
+    "en": "Ping-Cheng Yeh"
+   },
+   "title": {
+    "zh": "教授",
+    "en": "Professor"
+   },
+   "summary": {
+    "zh": "研究涵蓋分子通訊，近年也研究肌電訊號除噪。",
+    "en": "His work covers molecular communication, and recently EMG signal denoising."
+   },
+   "tags": [
+    {
+     "zh": "分子通訊",
+     "en": "Molecular communication"
+    }
+   ],
+   "note": null,
+   "more": [
+    {
+     "zh": "肌電訊號除噪（2023 指導碩士論文；2025、2026 與跨校團隊合作的會議論文）",
+     "en": "EMG denoising (a 2023 advised thesis; 2025 and 2026 conference papers with a cross-university team)"
+    }
+   ],
+   "admit": null,
+   "warn": false,
+   "label": {
+    "zh": "研究脈絡",
+    "en": "Research lineage"
+   },
+   "extra": {
+    "label": {
+     "zh": "近期研究",
+     "en": "Recent work"
+    },
+    "items": [
+     {
+      "zh": "肌電訊號除噪",
+      "en": "EMG denoising"
+     }
+    ]
+   },
+   "src": [
+    {
+     "zh": "2023 指導碩士論文（肌電訊號除噪）",
+     "en": "2023 advised thesis (EMG denoising)",
+     "u": "https://tdr.lib.ntu.edu.tw/handle/123456789/88371?mode=full"
+    },
+    {
+     "zh": "2025 肌電訊號除噪合作論文（MSEMG）",
+     "en": "2025 EMG denoising paper (MSEMG)",
+     "u": "https://arxiv.org/abs/2411.18902"
+    },
+    {
+     "zh": "2026 肌電訊號除噪合作論文（SSEMG）",
+     "en": "2026 EMG denoising paper (SSEMG)",
+     "u": "https://arxiv.org/abs/2609.11663"
+    },
+    {
+     "zh": "分子通訊通道模型論文",
+     "en": "Molecular-communication channel paper",
+     "u": "https://arxiv.org/abs/2512.04858"
+    }
+   ]
+  },
+  {
+   "name": {
+    "zh": "吳沛遠",
+    "en": "Pei-Yuan Wu"
+   },
+   "title": {
+    "zh": "副教授",
+    "en": "Associate Professor"
+   },
+   "summary": {
+    "zh": "研究機器學習需要多少資料才學得好、怎麼在保護資料的情況下學習與推論，也做晶圓瑕疵分析和 3D 人體姿態估計。",
+    "en": "How much data machine learning needs, how to learn and infer while protecting data, plus wafer defect analysis and 3D human pose estimation."
+   },
+   "tags": [
+    {
+     "zh": "機器學習與統計效率",
+     "en": "Machine learning and statistical efficiency"
+    },
+    {
+     "zh": "安全與隱私保護學習與推論",
+     "en": "Secure and privacy-preserving learning and inference"
+    }
+   ],
+   "note": null,
+   "more": [
+    {
+     "zh": "智慧製造：晶圓圖缺陷分析（2022、2026 指導論文）",
+     "en": "Smart manufacturing: wafer-map defect analysis (advised theses, 2022 and 2026)"
+    },
+    {
+     "zh": "3D 人體姿態估計（2023–2025 多篇指導論文）",
+     "en": "3D human pose estimation (several advised theses, 2023–2025)"
+    },
+    {
+     "zh": "離線強化學習（2024 年起論文與指導論文）",
+     "en": "Offline reinforcement learning (papers and advised theses since 2024)"
+    }
+   ],
+   "admit": null,
+   "warn": false,
+   "label": null,
+   "extra": null,
+   "src": [
+    {
+     "zh": "2022 指導論文（晶圓圖搜索）",
+     "en": "2022 advised thesis (wafer-map retrieval)",
+     "u": "https://tdr.lib.ntu.edu.tw/handle/123456789/91930"
+    },
+    {
+     "zh": "2026 指導論文（晶圓圖缺陷）",
+     "en": "2026 advised thesis (wafer-map defects)",
+     "u": "https://tdr.lib.ntu.edu.tw/handle/123456789/104066"
+    },
+    {
+     "zh": "2023 指導論文（3D 人體姿態）",
+     "en": "2023 advised thesis (3D pose)",
+     "u": "https://tdr.lib.ntu.edu.tw/handle/123456789/88557"
+    },
+    {
+     "zh": "離線強化學習論文",
+     "en": "Offline RL paper",
+     "u": "https://arxiv.org/abs/2408.12307"
+    }
+   ]
+  },
+  {
+   "name": {
+    "zh": "黃寶儀",
+    "en": "Polly Huang"
+   },
+   "title": {
+    "zh": "教授",
+    "en": "Professor"
+   },
+   "summary": {
+    "zh": "實際量測 Twitch 這類大型網路服務背後的 CDN 與伺服器，也做行動與穿戴式感測系統。",
+    "en": "Measuring the CDNs and servers behind large services such as Twitch, plus mobile and wearable sensing systems."
+   },
+   "tags": [
+    {
+     "zh": "網際網路與 CDN 量測",
+     "en": "Internet and CDN measurement"
+    },
+    {
+     "zh": "行動與穿戴式感測系統",
+     "en": "Mobile and wearable sensing systems"
+    }
+   ],
+   "note": null,
+   "more": [],
+   "admit": null,
+   "warn": false,
+   "label": null,
+   "extra": null,
+   "src": [
+    {
+     "zh": "個人網頁與論文",
+     "en": "Homepage and publications",
+     "u": "https://homepage.ntu.edu.tw/~pollyhuang/"
+    },
+    {
+     "zh": "2022 指導碩士論文（伺服器數量估計）",
+     "en": "2022 advised thesis (server population)",
+     "u": "https://tdr.lib.ntu.edu.tw/handle/123456789/85394?mode=full"
+    },
+    {
+     "zh": "2024 指導碩士論文（CDN 規模估計）",
+     "en": "2024 advised thesis (CDN size estimation)",
+     "u": "https://tdr.lib.ntu.edu.tw/handle/123456789/91391"
+    }
+   ]
+  },
+  {
+   "name": {
+    "zh": "孫紹華",
+    "en": "Shao-Hua Sun"
+   },
+   "title": {
+    "zh": "副教授",
+    "en": "Associate Professor"
+   },
+   "summary": {
+    "zh": "研究機器人學習、強化學習與模仿學習；部分研究用程式化策略學習需要很多步驟的長時程技能。",
+    "en": "Robot learning, reinforcement learning and imitation learning; part of the work uses programmatic policies to learn long-horizon, multi-step skills."
+   },
+   "tags": [
+    {
+     "zh": "機器人學習",
+     "en": "Robot learning"
+    },
+    {
+     "zh": "強化學習與模仿學習",
+     "en": "Reinforcement and imitation learning"
+    },
+    {
+     "zh": "程式化策略與長時程技能",
+     "en": "Programmatic policies and long-horizon skills"
+    }
+   ],
+   "note": null,
+   "more": [
+    {
+     "zh": "大型語言模型：對齊、創造力與評估（2024 年起多篇論文）",
+     "en": "Large language models: alignment, creativity and evaluation (several papers since 2024)"
+    },
+    {
+     "zh": "多代理合作與夥伴適應（2025、2026 指導論文）",
+     "en": "Multi-agent coordination and partner adaptation (advised theses, 2025 and 2026)"
+    }
+   ],
+   "admit": null,
+   "warn": false,
+   "label": null,
+   "extra": null,
+   "src": [
+    {
+     "zh": "個人網站與論文",
+     "en": "Homepage and publications",
+     "u": "https://shaohua0116.github.io/"
+    },
+    {
+     "zh": "2025 指導論文（合作轉換器）",
+     "en": "2025 advised thesis (coordination transformer)",
+     "u": "https://tdr.lib.ntu.edu.tw/handle/123456789/98384"
+    },
+    {
+     "zh": "2026 指導論文（臨場團隊合作）",
+     "en": "2026 advised thesis (ad-hoc teamwork)",
+     "u": "https://tdr.lib.ntu.edu.tw/handle/123456789/104179"
+    }
+   ]
+  },
+  {
+   "name": {
+    "zh": "林宗男",
+    "en": "Tsung-Nan Lin"
+   },
+   "title": {
+    "zh": "教授",
+    "en": "Professor"
+   },
+   "summary": {
+    "zh": "研究行動網路核心與控制平面的攻擊和防禦，用可程式化網路（P4）做防護，也用 AI 偵測網路異常與攻擊。",
+    "en": "Attacks and defenses in the mobile core and control plane, protection with programmable networks (P4), and AI for detecting network anomalies and attacks."
+   },
+   "tags": [
+    {
+     "zh": "網路與通訊安全",
+     "en": "Network and communication security"
+    },
+    {
+     "zh": "行動核心網路與控制平面安全",
+     "en": "Mobile-core and control-plane security"
+    },
+    {
+     "zh": "AI 輔助資安",
+     "en": "AI for security"
+    }
+   ],
+   "note": null,
+   "more": [
+    {
+     "zh": "可程式化網路（P4）防禦（2022、2023 指導論文）",
+     "en": "Programmable-network (P4) defense (advised theses, 2022 and 2023)"
+    },
+    {
+     "zh": "惡意程式與入侵偵測中的規避攻擊與反規避（2025、2026 指導論文）",
+     "en": "Evasion and anti-evasion in malware and intrusion detection (advised theses, 2025 and 2026)"
+    }
+   ],
+   "admit": null,
+   "warn": false,
+   "label": null,
+   "extra": null,
+   "src": [
+    {
+     "zh": "NMLAB 實驗室",
+     "en": "NMLAB",
+     "u": "https://nmlab.ntu.edu.tw/"
+    },
+    {
+     "zh": "指導論文列表（臺大論文庫）",
+     "en": "Advised theses (NTU repository)",
+     "u": "https://tdr.lib.ntu.edu.tw/browse?type=advisor&value=tsung-nan+lin"
+    },
+    {
+     "zh": "2023 指導論文（5G 核心網路與 P4）",
+     "en": "2023 advised thesis (5G core and P4)",
+     "u": "https://tdr.lib.ntu.edu.tw/handle/123456789/88969"
+    }
+   ]
+  },
+  {
+   "name": {
+    "zh": "廖婉君",
+    "en": "Wanjiun Liao"
+   },
+   "title": {
+    "zh": "教授",
+    "en": "Professor"
+   },
+   "summary": {
+    "zh": "研究邊緣伺服器怎麼分擔運算、VR 和 360 度影片怎麼透過網路傳得更順，以及無線網路的資源管理。",
+    "en": "How edge servers share computation, how VR and 360-degree video travel smoothly over networks, and wireless resource management."
+   },
+   "tags": [
+    {
+     "zh": "邊緣運算與網路服務資源管理",
+     "en": "Edge computing and network-service resource management"
+    },
+    {
+     "zh": "多媒體與 XR 網路傳輸",
+     "en": "Multimedia and XR networking"
+    },
+    {
+     "zh": "無線資源管理",
+     "en": "Wireless resource management"
+    }
+   ],
+   "note": null,
+   "more": [
+    {
+     "zh": "低軌衛星網路：任務卸載、路由、快取與影音串流（2023 年起多篇論文）",
+     "en": "LEO satellite networks: task offloading, routing, caching and video streaming (several papers since 2023)"
+    },
+    {
+     "zh": "任務導向通訊（2024 年起）",
+     "en": "Task-oriented communication (since 2024)"
+    }
+   ],
+   "admit": null,
+   "warn": false,
+   "label": null,
+   "extra": null,
+   "src": [
+    {
+     "zh": "系上著作列表",
+     "en": "EE publication list",
+     "u": "https://www.ee.ntu.edu.tw/publist1.php?id=66"
+    },
+    {
+     "zh": "2026 指導論文（低軌衛星網路編碼）",
+     "en": "2026 advised thesis (LEO network coding)",
+     "u": "https://tdr.lib.ntu.edu.tw/handle/123456789/104419"
+    },
+    {
+     "zh": "2025 指導論文（分割推論）",
+     "en": "2025 advised thesis (split inference)",
+     "u": "https://tdr.lib.ntu.edu.tw/handle/123456789/99637"
+    }
+   ]
+  },
+  {
+   "name": {
+    "zh": "楊奕軒",
+    "en": "Yi-Hsuan Yang"
+   },
+   "title": {
+    "zh": "教授",
+    "en": "Professor"
+   },
+   "summary": {
+    "zh": "讓 AI 作曲、改編並控制音樂，也研究電腦怎麼分析與理解音樂。",
+    "en": "AI that composes, arranges and controls music, and how computers analyze and understand music."
+   },
+   "tags": [
+    {
+     "zh": "生成式音樂 AI",
+     "en": "Generative music AI"
+    },
+    {
+     "zh": "音樂資訊檢索",
+     "en": "Music information retrieval"
+    }
+   ],
+   "note": null,
+   "more": [
+    {
+     "zh": "音效與吉他音箱建模、自動混音（多篇論文）",
+     "en": "Audio effects, guitar amplifier modeling and automatic mixing (several papers)"
+    },
+    {
+     "zh": "歌聲處理：歌聲合成與音色轉換（2025、2026 指導論文）",
+     "en": "Singing voice: synthesis and timbre conversion (advised theses, 2025 and 2026)"
+    }
+   ],
+   "admit": null,
+   "warn": false,
+   "label": null,
+   "extra": null,
+   "src": [
+    {
+     "zh": "個人論文列表",
+     "en": "Publications",
+     "u": "https://affige.github.io/publication.html"
+    },
+    {
+     "zh": "實驗室介紹",
+     "en": "Lab page",
+     "u": "https://affige.github.io/lab.html"
+    }
+   ]
+  }
+ ],
+ "ntuee": [
+  {
+   "tier": "基礎／大學部必修",
+   "items": [
+    {
+     "zh": "計算機程式",
+     "en": "Computer Programming"
+    },
+    {
+     "zh": "計算機概論",
+     "en": "Introduction to Computer Science"
+    },
+    {
+     "zh": "計算機程式設計實驗",
+     "en": "Computer Programming Lab"
+    },
+    {
+     "zh": "離散數學",
+     "en": "Discrete Mathematics"
+    },
+    {
+     "zh": "線性代數",
+     "en": "Linear Algebra"
+    },
+    {
+     "zh": "機率與統計",
+     "en": "Probability and Statistics"
+    }
+   ]
+  },
+  {
+   "tier": "延伸／大學部選修",
+   "items": [
+    {
+     "zh": "資料庫",
+     "en": "Database"
+    },
+    {
+     "zh": "資料結構",
+     "en": "Data Structures"
+    },
+    {
+     "zh": "計算機結構",
+     "en": "Computer Architecture"
+    },
+    {
+     "zh": "人工智慧",
+     "en": "Artificial Intelligence"
+    },
+    {
+     "zh": "演算法",
+     "en": "Algorithms"
+    },
+    {
+     "zh": "統計學",
+     "en": "Statistics"
+    },
+    {
+     "zh": "高等統計推論",
+     "en": "Advanced Statistical Inference"
+    },
+    {
+     "zh": "無線行動網路導論",
+     "en": "Introduction to Wireless and Mobile Networks"
+    },
+    {
+     "zh": "電腦網路導論",
+     "en": "Introduction to Computer Networks"
+    },
+    {
+     "zh": "網路與媒體實驗",
+     "en": "Networking and Multimedia Lab"
+    }
+   ]
+  },
+  {
+   "tier": "研究所方向",
+   "items": [
+    {
+     "zh": "機器學習",
+     "en": "Machine Learning"
+    },
+    {
+     "zh": "機器學習與核方法",
+     "en": "Machine Learning and Kernel Methods"
+    },
+    {
+     "zh": "機器學習中的數學原理",
+     "en": "Mathematical Principles of Machine Learning"
+    },
+    {
+     "zh": "機器學習及其深層與結構化",
+     "en": "Machine Learning and Having It Deep and Structured"
+    },
+    {
+     "zh": "高等演算法",
+     "en": "Advanced Algorithms"
+    },
+    {
+     "zh": "凸函數最佳化",
+     "en": "Convex Optimization"
+    },
+    {
+     "zh": "資料探勘",
+     "en": "Data Mining"
+    },
+    {
+     "zh": "資料科學",
+     "en": "Data Science"
+    },
+    {
+     "zh": "計算認知神經科學",
+     "en": "Computational Cognitive Neuroscience"
+    },
+    {
+     "zh": "深度學習與計算機視覺",
+     "en": "Deep Learning for Computer Vision"
+    },
+    {
+     "zh": "電腦通信網路",
+     "en": "Computer Communication Networks"
+    },
+    {
+     "zh": "網路規劃與管理",
+     "en": "Network Planning and Management"
+    },
+    {
+     "zh": "網路科學",
+     "en": "Network Science"
+    },
+    {
+     "zh": "高等無線網路",
+     "en": "Advanced Wireless Networks"
+    },
+    {
+     "zh": "網路消息理論",
+     "en": "Network Information Theory"
+    },
+    {
+     "zh": "無線通訊網路設計",
+     "en": "Wireless Communication Network Design"
+    },
+    {
+     "zh": "無線接取網路",
+     "en": "Wireless Access Networks"
+    },
+    {
+     "zh": "網路與電腦安全",
+     "en": "Network and Computer Security"
+    },
+    {
+     "zh": "軟體定義網路",
+     "en": "Software-Defined Networking"
+    }
+   ]
+  }
+ ],
+ "gice": [
+  {
+   "tier": "基礎／大學部必修",
+   "items": [
+    {
+     "zh": "計算機程式",
+     "en": "Computer Programming"
+    },
+    {
+     "zh": "計算機概論",
+     "en": "Introduction to Computer Science"
+    },
+    {
+     "zh": "離散數學",
+     "en": "Discrete Mathematics"
+    },
+    {
+     "zh": "機率與統計",
+     "en": "Probability and Statistics"
+    },
+    {
+     "zh": "工程數學－線性代數",
+     "en": "Engineering Mathematics — Linear Algebra"
+    }
+   ]
+  },
+  {
+   "tier": "延伸／大學部選修",
+   "items": [
+    {
+     "zh": "演算法",
+     "en": "Algorithms"
+    },
+    {
+     "zh": "資料結構",
+     "en": "Data Structures"
+    },
+    {
+     "zh": "人工智慧與機器學習導論",
+     "en": "Introduction to Artificial Intelligence and Machine Learning"
+    },
+    {
+     "zh": "深度學習導論",
+     "en": "Introduction to Deep Learning"
+    },
+    {
+     "zh": "電腦網路導論",
+     "en": "Introduction to Computer Networks"
+    },
+    {
+     "zh": "電工實驗（網路與多媒體）",
+     "en": "Electrical Engineering Lab (Networks and Multimedia)"
+    },
+    {
+     "zh": "無線行動網路導論",
+     "en": "Introduction to Wireless and Mobile Networks"
+    }
+   ]
+  },
+  {
+   "tier": "研究所方向",
+   "items": [
+    {
+     "zh": "電腦通信網路",
+     "en": "Computer Communication Networks"
+    },
+    {
+     "zh": "網路與電腦安全",
+     "en": "Network and Computer Security"
+    },
+    {
+     "zh": "計算機模擬",
+     "en": "Computer Simulation"
+    },
+    {
+     "zh": "排隊理論",
+     "en": "Queueing Theory"
+    },
+    {
+     "zh": "網路規劃與管理",
+     "en": "Network Planning and Management"
+    },
+    {
+     "zh": "無線接取網路",
+     "en": "Wireless Access Networks"
+    },
+    {
+     "zh": "無線通訊網路設計",
+     "en": "Wireless Communication Network Design"
+    },
+    {
+     "zh": "無線隨意網路",
+     "en": "Wireless Ad Hoc Networks"
+    },
+    {
+     "zh": "高等無線網路",
+     "en": "Advanced Wireless Networks"
+    },
+    {
+     "zh": "網路攻防實習",
+     "en": "Network Attack and Defense Practicum"
+    },
+    {
+     "zh": "虛擬化網路與安全",
+     "en": "Virtualized Networks and Security"
+    },
+    {
+     "zh": "物聯網資安檢測實務",
+     "en": "Practical IoT Security Testing"
+    },
+    {
+     "zh": "惡意程式逆向分析",
+     "en": "Malware Reverse Engineering"
+    },
+    {
+     "zh": "機器學習",
+     "en": "Machine Learning"
+    },
+    {
+     "zh": "資料科學",
+     "en": "Data Science"
+    },
+    {
+     "zh": "資訊勘測",
+     "en": "Information Retrieval"
+    },
+    {
+     "zh": "計算認知神經科學",
+     "en": "Computational Cognitive Neuroscience"
+    },
+    {
+     "zh": "凸函數最佳化",
+     "en": "Convex Optimization"
+    },
+    {
+     "zh": "網路科學",
+     "en": "Network Science"
+    },
+    {
+     "zh": "電腦視覺",
+     "en": "Computer Vision"
+    },
+    {
+     "zh": "數位語音處理概論",
+     "en": "Introduction to Digital Speech Processing"
+    },
+    {
+     "zh": "高效能巨量資料與人工智慧系統",
+     "en": "High-Performance Big Data and AI Systems"
+    },
+    {
+     "zh": "機器學習及其深層與結構化",
+     "en": "Machine Learning and Having It Deep and Structured"
+    },
+    {
+     "zh": "機器學習中的數學原理",
+     "en": "Mathematical Principles of Machine Learning"
+    },
+    {
+     "zh": "機器學習與核方法",
+     "en": "Machine Learning and Kernel Methods"
+    },
+    {
+     "zh": "深度學習與人類語言處理",
+     "en": "Deep Learning and Human Language Processing"
+    },
+    {
+     "zh": "數位影像處理",
+     "en": "Digital Image Processing"
+    },
+    {
+     "zh": "多媒體信號處理",
+     "en": "Multimedia Signal Processing"
+    },
+    {
+     "zh": "深度學習於電腦視覺",
+     "en": "Deep Learning for Computer Vision"
+    },
+    {
+     "zh": "金融科技",
+     "en": "Financial Technology"
+    },
+    {
+     "zh": "資料庫系統－從 SQL 到 NoSQL",
+     "en": "Database Systems — SQL to NoSQL"
+    }
+   ]
+  }
+ ],
+ "planned": [
+  {
+   "code": "EE5028",
+   "name": {
+    "zh": "消息理論",
+    "en": "Information Theory"
+   },
+   "cls": "原清單未標明",
+   "t": [
+    {
+     "zh": "王奕翔",
+     "en": "I-Hsiang Wang"
+    }
+   ],
+   "cr": "3"
+  },
+  {
+   "code": "EE5040",
+   "name": {
+    "zh": "偵測與評估",
+    "en": "Detection and Estimation"
+   },
+   "cls": "原清單未標明",
+   "t": [
+    {
+     "zh": "王奕翔",
+     "en": "I-Hsiang Wang"
+    }
+   ],
+   "cr": "3"
+  },
+  {
+   "code": "EE5041",
+   "name": {
+    "zh": "隨機程序及應用",
+    "en": "Random Processes and Applications"
+   },
+   "cls": "原清單未標明",
+   "t": [
+    {
+     "zh": "鐘嘉德",
+     "en": "Char-Dir Chung"
+    }
+   ],
+   "cr": "3"
+  },
+  {
+   "code": "EE5175",
+   "name": {
+    "zh": "資料科學",
+    "en": "Data Science"
+   },
+   "cls": "原清單未標明",
+   "t": [
+    {
+     "zh": "陳銘憲",
+     "en": "Ming-Syan Chen"
+    },
+    {
+     "zh": "駱明凌",
+     "en": "Ming-Ling Lo"
+    }
+   ],
+   "cr": "3"
+  },
+  {
+   "code": "EE5184",
+   "name": {
+    "zh": "機器學習",
+    "en": "Machine Learning"
+   },
+   "cls": "原清單未標明",
+   "t": [
+    {
+     "zh": "吳沛遠",
+     "en": "Pei-Yuan Wu"
+    },
+    {
+     "zh": "林宗男",
+     "en": "Tsung-Nan Lin"
+    },
+    {
+     "zh": "李宏毅",
+     "en": "Hung-yi Lee"
+    }
+   ],
+   "cr": "4"
+  },
+  {
+   "code": "EE5201",
+   "name": {
+    "zh": "大型語言與語音模型技術",
+    "en": "Large Language and Speech Model Technologies"
+   },
+   "cls": "原清單未標明",
+   "t": [
+    {
+     "zh": "李宏毅",
+     "en": "Hung-yi Lee"
+    }
+   ],
+   "cr": "3"
+  },
+  {
+   "code": "CommE5026",
+   "name": {
+    "zh": "高等無線網路",
+    "en": "Advanced Wireless Networks"
+   },
+   "cls": "原清單未標明",
+   "t": [
+    {
+     "zh": "廖婉君",
+     "en": "Wanjiun Liao"
+    }
+   ],
+   "cr": "3"
+  },
+  {
+   "code": "CommE5030",
+   "name": {
+    "zh": "時頻分析和小波轉換",
+    "en": "Time-Frequency Analysis and Wavelet Transform"
+   },
+   "cls": "原清單未標明",
+   "t": [
+    {
+     "zh": "丁建均",
+     "en": "Jian-Jiun Ding"
+    }
+   ],
+   "cr": "3"
+  },
+  {
+   "code": "CommE5047",
+   "name": {
+    "zh": "物聯網導論",
+    "en": "Introduction to the Internet of Things"
+   },
+   "cls": "原清單未標明",
+   "t": [
+    {
+     "zh": "賴怡吉",
+     "en": "Yi-Chi Lai"
+    },
+    {
+     "zh": "吳瑞北",
+     "en": "Ruey-Beei Wu"
+    }
+   ],
+   "cr": "3"
+  },
+  {
+   "code": "CommE5064",
+   "name": {
+    "zh": "人工智慧與智慧醫療",
+    "en": "Artificial Intelligence and Smart Healthcare"
+   },
+   "cls": "原清單未標明",
+   "t": [
+    {
+     "zh": "林澤",
+     "en": "Che Lin"
+    }
+   ],
+   "cr": "3"
+  },
+  {
+   "code": "CommE5069",
+   "name": {
+    "zh": "強化學習",
+    "en": "Reinforcement Learning"
+   },
+   "cls": "原清單未標明",
+   "t": [
+    {
+     "zh": "孫紹華",
+     "en": "Shao-Hua Sun"
+    }
+   ],
+   "cr": "3"
+  },
+  {
+   "code": "CommE5070",
+   "name": {
+    "zh": "深度學習於音樂分析及生成",
+    "en": "Deep Learning for Music Analysis and Generation"
+   },
+   "cls": "原清單未標明",
+   "t": [
+    {
+     "zh": "楊奕軒",
+     "en": "Yi-Hsuan Yang"
+    }
+   ],
+   "cr": "3"
+  },
+  {
+   "code": "CommE5074",
+   "name": {
+    "zh": "人工智慧隱私的理論與實務",
+    "en": "Theory and Practice of Privacy in Artificial Intelligence"
+   },
+   "cls": "原清單未標明",
+   "t": [
+    {
+     "zh": "簡翌",
+     "en": "Eli Chien"
+    }
+   ],
+   "cr": "3"
+  },
+  {
+   "code": "EE5184",
+   "name": {
+    "zh": "機器學習",
+    "en": "Machine Learning"
+   },
+   "cls": "01",
+   "t": [
+    {
+     "zh": "劉子毓",
+     "en": "Tzu-Yu Liu"
+    }
+   ],
+   "cr": "4"
+  }
+ ],
+ "groups": [
+  {
+   "name": {
+    "zh": "機器學習與資料科學",
+    "en": "Machine learning and data science"
+   },
+   "note": null,
+   "cards": [
+    {
+     "name": {
+      "zh": "圖與關係結構學習",
+      "en": "Graph and relational learning"
+     },
+     "q": {
+      "zh": "從圖與網路結構的資料（例如社群網路、知識圖譜）學習表示和預測。",
+      "en": "Learning representations and predictions from graph- and network-structured data, such as social networks and knowledge graphs."
+     },
+     "main": [
+      {
+       "n": "林澤",
+       "why": null
+      },
+      {
+       "n": "簡翌",
+       "why": null
+      }
+     ],
+     "also": [
+      {
+       "n": "陳銘憲",
+       "why": {
+        "zh": "圖資料分析與圖神經網路",
+        "en": "graph data analysis and GNNs"
+       }
+      }
+     ],
+     "lineage": []
+    },
+    {
+     "name": {
+      "zh": "推薦系統",
+      "en": "Recommender systems"
+     },
+     "q": {
+      "zh": "根據使用者的行為序列、圖片與文字，推薦下一個可能需要的東西。",
+      "en": "Recommending what a user may want next from behavior sequences, images and text."
+     },
+     "main": [
+      {
+       "n": "林澤",
+       "why": null
+      }
+     ],
+     "also": [],
+     "lineage": []
+    },
+    {
+     "name": {
+      "zh": "機器學習的資料隱私",
+      "en": "Data privacy in machine learning"
+     },
+     "q": {
+      "zh": "訓練與資料處理過程如何保護資料隱私，例如差分隱私。",
+      "en": "How training and data processing protect privacy, e.g. differential privacy."
+     },
+     "main": [
+      {
+       "n": "簡翌",
+       "why": {
+        "zh": "差分隱私",
+        "en": "differential privacy"
+       }
+      }
+     ],
+     "also": [],
+     "lineage": []
+    },
+    {
+     "name": {
+      "zh": "機器遺忘",
+      "en": "Machine unlearning"
+     },
+     "q": {
+      "zh": "讓訓練完成的模型移除指定資料對模型的影響。",
+      "en": "Removing the influence of specified data from a trained model."
+     },
+     "main": [
+      {
+       "n": "簡翌",
+       "why": null
+      }
+     ],
+     "also": [],
+     "lineage": []
+    },
+    {
+     "name": {
+      "zh": "安全與隱私保護推論",
+      "en": "Secure and privacy-preserving inference"
+     },
+     "q": {
+      "zh": "推論時如何透過加密或可信執行環境，保護使用者輸入與模型。",
+      "en": "Protecting user inputs and models at inference time with encryption or trusted execution."
+     },
+     "main": [
+      {
+       "n": "吳沛遠",
+       "why": {
+        "zh": "安全與隱私保護學習及推論",
+        "en": "secure and privacy-preserving learning and inference"
+       }
+      }
+     ],
+     "also": [],
+     "lineage": []
+    },
+    {
+     "name": {
+      "zh": "資料探勘",
+      "en": "Data mining"
+     },
+     "q": {
+      "zh": "從大型資料、社群與圖資料中找出規律。",
+      "en": "Finding patterns in large, social and graph data."
+     },
+     "main": [
+      {
+       "n": "陳銘憲",
+       "why": null
+      }
+     ],
+     "also": [],
+     "lineage": []
+    },
+    {
+     "name": {
+      "zh": "模型壓縮與高效率 AI",
+      "en": "Model compression and efficient AI"
+     },
+     "q": {
+      "zh": "讓模型變小、變快，能在資源有限的裝置上執行。",
+      "en": "Making models smaller and faster so they run on resource-limited devices."
+     },
+     "main": [
+      {
+       "n": "陳銘憲",
+       "why": null
+      }
+     ],
+     "also": [],
+     "lineage": []
+    },
+    {
+     "name": {
+      "zh": "學習理論與統計效率",
+      "en": "Learning theory and statistical efficiency"
+     },
+     "q": {
+      "zh": "機器學習需要多少資料才能學好，以及學習的理論極限。",
+      "en": "How much data learning needs, and the theoretical limits of learning."
+     },
+     "main": [
+      {
+       "n": "吳沛遠",
+       "why": {
+        "zh": "樣本效率與學習理論",
+        "en": "sample efficiency and learning theory"
+       }
+      },
+      {
+       "n": "王奕翔",
+       "why": {
+        "zh": "統計學習與推論的基礎問題、高維統計",
+        "en": "foundations of statistical learning and inference, high-dimensional statistics"
+       }
+      }
+     ],
+     "also": [],
+     "lineage": []
+    },
+    {
+     "name": {
+      "zh": "機器人學習",
+      "en": "Robot learning"
+     },
+     "q": {
+      "zh": "讓機器人從示範和互動中學會需要很多步驟的技能。",
+      "en": "Robots that learn multi-step skills from demonstrations and interaction."
+     },
+     "main": [
+      {
+       "n": "孫紹華",
+       "why": null
+      }
+     ],
+     "also": [],
+     "lineage": []
+    },
+    {
+     "name": {
+      "zh": "強化學習",
+      "en": "Reinforcement learning"
+     },
+     "q": {
+      "zh": "讓 AI 從互動或既有經驗資料學習決策策略。",
+      "en": "AI that learns decision policies from interaction or existing experience data."
+     },
+     "main": [
+      {
+       "n": "孫紹華",
+       "why": null
+      }
+     ],
+     "also": [
+      {
+       "n": "吳沛遠",
+       "why": {
+        "zh": "離線強化學習的理論",
+        "en": "theory of offline reinforcement learning"
+       }
+      }
+     ],
+     "lineage": []
+    },
+    {
+     "name": {
+      "zh": "模仿學習",
+      "en": "Imitation learning"
+     },
+     "q": {
+      "zh": "讓 AI 從專家示範學習行動與技能。",
+      "en": "AI that learns actions and skills from expert demonstrations."
+     },
+     "main": [
+      {
+       "n": "孫紹華",
+       "why": null
+      }
+     ],
+     "also": [],
+     "lineage": []
+    },
+    {
+     "name": {
+      "zh": "語音與口語語言模型",
+      "en": "Speech and spoken language models"
+     },
+     "q": {
+      "zh": "讓 AI 聽懂語音、處理音訊，並用語音對話。",
+      "en": "AI that understands speech, processes audio and holds spoken conversations."
+     },
+     "main": [
+      {
+       "n": "李宏毅",
+       "why": null
+      }
+     ],
+     "also": [],
+     "lineage": []
+    },
+    {
+     "name": {
+      "zh": "音樂生成與編輯",
+      "en": "Music generation and editing"
+     },
+     "q": {
+      "zh": "讓 AI 作曲、改編與編輯音樂，並控制生成結果。",
+      "en": "AI that composes, arranges and edits music and controls what it generates."
+     },
+     "main": [
+      {
+       "n": "楊奕軒",
+       "why": null
+      }
+     ],
+     "also": [],
+     "lineage": []
+    },
+    {
+     "name": {
+      "zh": "音樂資訊檢索與分析",
+      "en": "Music information retrieval and analysis"
+     },
+     "q": {
+      "zh": "讓電腦分析、辨識與理解音樂，也研究音樂與音訊的檢索方法。",
+      "en": "Computers that analyze, recognize and understand music, and methods for music and audio retrieval."
+     },
+     "main": [
+      {
+       "n": "楊奕軒",
+       "why": null
+      }
+     ],
+     "also": [
+      {
+       "n": "丁建均",
+       "why": {
+        "zh": "哼唱檢索",
+        "en": "query by humming"
+       }
+      }
+     ],
+     "lineage": []
+    },
+    {
+     "name": {
+      "zh": "影像處理與電腦視覺",
+      "en": "Image processing and computer vision"
+     },
+     "q": {
+      "zh": "把模糊、起霧、雜訊多的影像變清楚，並辨識影像內容。",
+      "en": "Making blurry, hazy or noisy images clear and recognizing what they show."
+     },
+     "main": [
+      {
+       "n": "丁建均",
+       "why": null
+      }
+     ],
+     "also": [],
+     "lineage": []
+    },
+    {
+     "name": {
+      "zh": "人體姿態與多模態感測",
+      "en": "Human pose and multimodal sensing"
+     },
+     "q": {
+      "zh": "從影像或聲音估計人的 3D 姿態。",
+      "en": "Estimating 3D human pose from images or sound."
+     },
+     "main": [
+      {
+       "n": "吳沛遠",
+       "why": null
+      }
+     ],
+     "also": [],
+     "lineage": []
+    }
+   ]
+  },
+  {
+   "name": {
+    "zh": "生醫",
+    "en": "Biomedicine"
+   },
+   "note": null,
+   "cards": [
+    {
+     "name": {
+      "zh": "生醫資料與計算生物",
+      "en": "Biomedical data and computational biology"
+     },
+     "q": {
+      "zh": "分析基因、病理影像、病歷和生理訊號，幫助理解疾病。",
+      "en": "Analyzing genes, pathology images, health records and physiological signals to understand disease."
+     },
+     "main": [
+      {
+       "n": "劉子毓",
+       "why": {
+        "zh": "以生醫與計算生物問題驅動的統計與機器學習",
+        "en": "statistics and ML driven by biomedical and computational-biology questions"
+       }
+      },
+      {
+       "n": "林澤",
+       "why": {
+        "zh": "電子病歷、臨床時序資料與醫學影像",
+        "en": "health records, clinical time series and medical imaging"
+       }
+      }
+     ],
+     "also": [
+      {
+       "n": "葉丙成",
+       "why": {
+        "zh": "肌電訊號除噪",
+        "en": "EMG denoising"
+       }
+      }
+     ],
+     "lineage": []
+    }
+   ]
+  },
+  {
+   "name": {
+    "zh": "通訊與網路系統",
+    "en": "Communication and networked systems"
+   },
+   "note": null,
+   "cards": [
+    {
+     "name": {
+      "zh": "無線實體層與通訊訊號處理",
+      "en": "Wireless physical layer and communication signal processing"
+     },
+     "q": {
+      "zh": "訊號怎麼編碼、調變，怎麼估計通道、形成波束並正確接收。",
+      "en": "How signals are coded and modulated, and how channels are estimated, beams formed and signals received correctly."
+     },
+     "main": [
+      {
+       "n": "蘇炫榮",
+       "why": null
+      }
+     ],
+     "also": [
+      {
+       "n": "謝宏昀",
+       "why": {
+        "zh": "低軌衛星的波束成形與同步，2025 年起",
+        "en": "LEO beamforming and synchronization, since 2025"
+       }
+      }
+     ],
+     "lineage": []
+    },
+    {
+     "name": {
+      "zh": "無線接取與資源管理",
+      "en": "Radio access and resource management"
+     },
+     "q": {
+      "zh": "大量裝置怎麼接入網路、排程、省電，以及分配頻譜與功率。",
+      "en": "How many devices access the network, get scheduled, save energy and share spectrum and power."
+     },
+     "main": [
+      {
+       "n": "魏宏宇",
+       "why": null
+      },
+      {
+       "n": "謝宏昀",
+       "why": null
+      },
+      {
+       "n": "蘇炫榮",
+       "why": {
+        "zh": "多重接取與大規模物聯網連線",
+        "en": "multiple access and massive IoT connectivity"
+       }
+      },
+      {
+       "n": "廖婉君",
+       "why": {
+        "zh": "無線資源管理",
+        "en": "wireless resource management"
+       }
+      }
+     ],
+     "also": [],
+     "lineage": []
+    },
+    {
+     "name": {
+      "zh": "網路協定與架構",
+      "en": "Network protocols and architecture"
+     },
+     "q": {
+      "zh": "封包怎麼選路，使用者移動時怎麼換手，網路怎麼切片。",
+      "en": "How packets are routed, how users hand over while moving, and how networks are sliced."
+     },
+     "main": [
+      {
+       "n": "魏宏宇",
+       "why": null
+      },
+      {
+       "n": "廖婉君",
+       "why": {
+        "zh": "路由與流量工程",
+        "en": "routing and traffic engineering"
+       }
+      }
+     ],
+     "also": [],
+     "lineage": []
+    },
+    {
+     "name": {
+      "zh": "邊緣與雲端運算系統",
+      "en": "Edge and cloud computing systems"
+     },
+     "q": {
+      "zh": "運算放在手機、邊緣伺服器還是雲端，服務怎麼部署與調度，模型要在哪裡切開執行。",
+      "en": "Whether computation runs on the phone, an edge server or the cloud; how services are deployed and orchestrated; where a model is split for execution."
+     },
+     "main": [
+      {
+       "n": "魏宏宇",
+       "why": null
+      },
+      {
+       "n": "廖婉君",
+       "why": null
+      }
+     ],
+     "also": [
+      {
+       "n": "謝宏昀",
+       "why": {
+        "zh": "邊緣輔助影音轉碼與 MEC 串流",
+        "en": "edge-assisted transcoding and MEC streaming"
+       }
+      }
+     ],
+     "lineage": []
+    },
+    {
+     "name": {
+      "zh": "無線與行動感測",
+      "en": "Wireless and mobile sensing"
+     },
+     "q": {
+      "zh": "用 WiFi 等無線訊號偵測跌倒、估計姿勢和位置，或用穿戴裝置感測身體狀態。",
+      "en": "Using WiFi and other wireless signals to detect falls and estimate pose and position, or sensing the body with wearables."
+     },
+     "main": [
+      {
+       "n": "謝宏昀",
+       "why": null
+      }
+     ],
+     "also": [
+      {
+       "n": "黃寶儀",
+       "why": {
+        "zh": "穿戴式與柔性感測，含跨團隊合作",
+        "en": "wearable and flexible sensing, incl. cross-team work"
+       }
+      }
+     ],
+     "lineage": []
+    },
+    {
+     "name": {
+      "zh": "網際網路量測",
+      "en": "Internet measurement"
+     },
+     "q": {
+      "zh": "實際量測大型網路服務背後的 CDN、伺服器與流量。",
+      "en": "Measuring the CDNs, servers and traffic behind large Internet services."
+     },
+     "main": [
+      {
+       "n": "黃寶儀",
+       "why": null
+      }
+     ],
+     "also": [],
+     "lineage": []
+    },
+    {
+     "name": {
+      "zh": "多媒體與 XR 網路傳輸",
+      "en": "Multimedia and XR networking"
+     },
+     "q": {
+      "zh": "360 度影片、VR 和體積視訊（volumetric video）怎麼透過網路即時傳送與轉碼，並維持觀看品質。",
+      "en": "How 360-degree video, VR and volumetric media are streamed and transcoded over networks while keeping viewing quality."
+     },
+     "main": [
+      {
+       "n": "謝宏昀",
+       "why": null
+      },
+      {
+       "n": "廖婉君",
+       "why": null
+      }
+     ],
+     "also": [],
+     "lineage": []
+    },
+    {
+     "name": {
+      "zh": "網路與通訊安全",
+      "en": "Network and communication security"
+     },
+     "q": {
+      "zh": "找出行動網路核心與控制平面的攻擊、設計防禦，並用 AI 偵測攻擊。",
+      "en": "Finding attacks on the mobile core and control plane, designing defenses, and detecting attacks with AI."
+     },
+     "main": [
+      {
+       "n": "林宗男",
+       "why": null
+      }
+     ],
+     "also": [
+      {
+       "n": "謝宏昀",
+       "why": {
+        "zh": "網路入侵與 APT 偵測",
+        "en": "network intrusion and APT detection"
+       }
+      }
+     ],
+     "lineage": []
+    },
+    {
+     "name": {
+      "zh": "低軌衛星（LEO）與非地面網路（NTN）",
+      "en": "LEO satellites and non-terrestrial networks (NTN)"
+     },
+     "q": {
+      "zh": "低軌衛星通訊與網路：訊號處理、接取、路由、邊緣運算與影音傳輸。",
+      "en": "LEO satellite communication and networking: signal processing, access, routing, edge computing and video delivery."
+     },
+     "theme": false,
+     "main": [],
+     "also": [
+      {
+       "n": "蘇炫榮",
+       "why": {
+        "zh": "非地面網路的訊號處理",
+        "en": "NTN signal processing"
+       }
+      },
+      {
+       "n": "謝宏昀",
+       "why": {
+        "zh": "波束成形與同步",
+        "en": "beamforming and synchronization"
+       }
+      },
+      {
+       "n": "魏宏宇",
+       "why": {
+        "zh": "負載平衡與軟體定義網路",
+        "en": "load balancing and software-defined networking"
+       }
+      },
+      {
+       "n": "廖婉君",
+       "why": {
+        "zh": "任務卸載、路由、快取與影音串流",
+        "en": "task offloading, routing, caching and video streaming"
+       }
+      }
+     ],
+     "lineage": []
+    }
+   ]
+  },
+  {
+   "name": {
+    "zh": "理論基礎與專門領域",
+    "en": "Foundations and specialized fields"
+   },
+   "note": null,
+   "cards": [
+    {
+     "name": {
+      "zh": "資訊理論與統計推論",
+      "en": "Information theory and statistical inference"
+     },
+     "q": {
+      "zh": "資訊處理與推論的數學極限，例如要看多少資料才能可靠地判斷。",
+      "en": "Mathematical limits of information processing and inference, such as how much data a reliable decision needs."
+     },
+     "main": [
+      {
+       "n": "王奕翔",
+       "why": null
+      }
+     ],
+     "also": [],
+     "lineage": []
+    },
+    {
+     "name": {
+      "zh": "時頻分析與訊號處理",
+      "en": "Time–frequency analysis and signal processing"
+     },
+     "q": {
+      "zh": "頻率隨時間變化的訊號要怎麼拆解與分析。",
+      "en": "How to decompose and analyze signals whose frequency changes over time."
+     },
+     "main": [
+      {
+       "n": "丁建均",
+       "why": null
+      }
+     ],
+     "also": [],
+     "lineage": []
+    },
+    {
+     "name": {
+      "zh": "量子資訊",
+      "en": "Quantum information"
+     },
+     "q": {
+      "zh": "量子通訊與量子資訊處理的理論極限。",
+      "en": "Theoretical limits of quantum communication and quantum information processing."
+     },
+     "main": [
+      {
+       "n": "鄭皓中",
+       "why": null
+      }
+     ],
+     "also": [],
+     "lineage": []
+    },
+    {
+     "name": {
+      "zh": "分子通訊",
+      "en": "Molecular communication"
+     },
+     "q": {
+      "zh": "讓分子攜帶訊息，研究這種通訊的通道模型。",
+      "en": "Communication in which molecules carry the message, and its channel models."
+     },
+     "main": [],
+     "also": [],
+     "lineage": [
+      {
+       "n": "葉丙成",
+       "why": {
+        "zh": "近年合作研究",
+        "en": "recent collaborative work"
+       }
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "prep": [
+  {
+   "name": {
+    "zh": "機器學習與資料科學",
+    "en": "Machine learning & data science"
+   },
+   "scope": {
+    "zh": "圖學習、推薦、隱私、資料探勘、機器人學習",
+    "en": "graphs, recommendation, privacy, data mining, robot learning"
+   },
+   "add": {
+    "zh": "機器學習與深度學習（PyTorch）；做機器人再補強化學習",
+    "en": "Machine learning and deep learning (PyTorch); add reinforcement learning for robotics"
+   },
+   "courses": [
+    {
+     "zh": "機器學習",
+     "en": "Machine Learning"
+    },
+    {
+     "zh": "資料科學",
+     "en": "Data Science"
+    },
+    {
+     "zh": "強化學習",
+     "en": "Reinforcement Learning"
+    },
+    {
+     "zh": "人工智慧隱私的理論與實務",
+     "en": "Theory and Practice of Privacy in Artificial Intelligence"
+    }
+   ]
+  },
+  {
+   "name": {
+    "zh": "語音、音樂與影像",
+    "en": "Speech, music & images"
+   },
+   "scope": null,
+   "add": {
+    "zh": "機器學習、訊號與系統、數位訊號處理",
+    "en": "Machine learning, signals and systems, digital signal processing"
+   },
+   "courses": [
+    {
+     "zh": "大型語言與語音模型技術",
+     "en": "Large Language and Speech Model Technologies"
+    },
+    {
+     "zh": "深度學習於音樂分析及生成",
+     "en": "Deep Learning for Music Analysis and Generation"
+    },
+    {
+     "zh": "時頻分析和小波轉換",
+     "en": "Time-Frequency Analysis and Wavelet Transform"
+    }
+   ]
+  },
+  {
+   "name": {
+    "zh": "生醫",
+    "en": "Biomedicine"
+   },
+   "scope": null,
+   "add": {
+    "zh": "統計、機器學習、資料清理",
+    "en": "Statistics, machine learning, data cleaning"
+   },
+   "courses": [
+    {
+     "zh": "人工智慧與智慧醫療",
+     "en": "Artificial Intelligence and Smart Healthcare"
+    },
+    {
+     "zh": "機器學習",
+     "en": "Machine Learning"
+    }
+   ]
+  },
+  {
+   "name": {
+    "zh": "通訊與網路系統",
+    "en": "Communication & networked systems"
+   },
+   "scope": null,
+   "add": {
+    "zh": "計算機網路、隨機程序、通訊原理；做系統或資安再補作業系統與 Linux",
+    "en": "Computer networks, stochastic processes, communication principles; add operating systems and Linux for systems or security"
+   },
+   "courses": [
+    {
+     "zh": "高等無線網路",
+     "en": "Advanced Wireless Networks"
+    },
+    {
+     "zh": "物聯網導論",
+     "en": "Introduction to the Internet of Things"
+    },
+    {
+     "zh": "隨機程序及應用",
+     "en": "Random Processes and Applications"
+    }
+   ]
+  },
+  {
+   "name": {
+    "zh": "理論與專門領域",
+    "en": "Theory & specialized fields"
+   },
+   "scope": {
+    "zh": "資訊理論、訊號處理、量子、分子通訊",
+    "en": "information theory, signal processing, quantum, molecular communication"
+   },
+   "add": {
+    "zh": "隨機程序、資訊理論、矩陣分析",
+    "en": "Stochastic processes, information theory, matrix analysis"
+   },
+   "courses": [
+    {
+     "zh": "消息理論",
+     "en": "Information Theory"
+    },
+    {
+     "zh": "偵測與評估",
+     "en": "Detection and Estimation"
+    },
+    {
+     "zh": "隨機程序及應用",
+     "en": "Random Processes and Applications"
+    }
+   ]
+  }
+ ]
+}

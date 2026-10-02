@@ -1,0 +1,608 @@
+<title>臺大電信所丙組</title>
+<meta name="description" content="臺大電信所丙組（資料科學與智慧網路）：組別介紹、修課與研究準備、學長姐 Q&amp;A。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400;500;600;700&display=swap">
+<style>
+/* Layout: plain white page, system fonts (PingFang / SF on Apple, Noto Sans TC elsewhere), one content column, large type. */
+:root{
+  --bg:#FFFFFF;
+  --bg-2:#F5F5F7;
+  --fg:#1D1D1F;
+  --fg-2:#6E6E73;
+  --line:#D2D2D7;
+  --accent:#0066CC;
+  --warn:#B64400;
+  --btn:#0066CC;
+  --f:-apple-system,BlinkMacSystemFont,"SF Pro Text","SF Pro Display","Helvetica Neue","PingFang TC","Noto Sans TC","Microsoft JhengHei",Roboto,"Segoe UI",Arial,sans-serif;
+  --gut:clamp(20px,5vw,48px);
+  --col:1040px;
+  --read:760px;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#000000;--bg-2:#1C1C1E;--fg:#F5F5F7;--fg-2:#A1A1A6;--line:#3A3A3C;--accent:#2997FF;--warn:#FF9F0A;color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#000000;--bg-2:#1C1C1E;--fg:#F5F5F7;--fg-2:#A1A1A6;--line:#3A3A3C;--accent:#2997FF;--warn:#FF9F0A;color-scheme:dark}
+
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+body{margin:0;background:var(--bg);color:var(--fg);font:400 20px/1.7 var(--f);-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility}
+::selection{background:color-mix(in srgb,var(--accent) 25%,transparent)}
+a{color:var(--accent);text-decoration:none}
+a:hover{text-decoration:underline;text-underline-offset:.2em}
+:focus-visible{outline:3px solid color-mix(in srgb,var(--accent) 60%,transparent);outline-offset:2px;border-radius:4px}
+.wrap{max-width:var(--col);margin:0 auto;padding-inline:var(--gut)}
+h1,h2,h3{margin:0;text-wrap:balance;font-weight:700;letter-spacing:-.005em}
+p{margin:0}
+.en-on .zh-only,.zh-on .en-only{display:none}
+.num{font-variant-numeric:tabular-nums}
+
+/* ---------- top bar ---------- */
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:var(--bg);border-bottom:1px solid var(--line)}
+.bar .wrap{display:flex;align-items:center;gap:28px;min-height:60px}
+.brand{font-weight:600;font-size:19px;color:var(--fg);white-space:nowrap;margin-right:auto}
+.brand:hover{text-decoration:none}
+.tabs{display:flex;gap:28px}
+.tab{font-size:17px;color:var(--fg-2);padding:18px 0 16px;border-bottom:2px solid transparent;white-space:nowrap}
+.tab:hover{color:var(--fg);text-decoration:none}
+.tab[aria-current="page"]{color:var(--fg);font-weight:600;border-bottom-color:var(--fg)}
+.lang{display:flex;gap:2px;background:var(--bg-2);border-radius:999px;padding:3px}
+.lang button{font:500 15px/1 var(--f);color:var(--fg-2);background:none;border:0;border-radius:999px;padding:8px 14px;cursor:pointer;min-height:34px}
+.lang button[aria-pressed="true"]{background:var(--bg);color:var(--fg);box-shadow:0 1px 3px rgba(0,0,0,.12)}
+
+/* ---------- hero ---------- */
+.head{padding-block:clamp(56px,9vw,112px) clamp(40px,6vw,72px)}
+.head h1{font-size:clamp(46px,7.4vw,84px);line-height:1.1;word-break:keep-all}
+.head .sub{margin-top:24px;font-size:clamp(21px,2.3vw,26px);line-height:1.6;color:var(--fg-2);max-width:32em}
+.head .sub small{display:block;font-size:17px;margin-top:14px}
+.ptags{display:flex;flex-wrap:wrap;gap:8px;margin-top:10px}
+.ptags span{font-size:15.5px;font-weight:500;line-height:1.3;padding:6px 11px;border-radius:8px;background:var(--bg-2);color:var(--fg)}
+.prof .sum{margin-top:10px}
+.pnote{font-size:17px;line-height:1.6;margin-top:10px}
+.who-links a{font-weight:500}
+.prof .labn{margin:0 0 4px!important;font-size:17px;font-weight:500;margin-top:6px;line-height:1.5}
+.prof .labn span{color:var(--fg-2);font-weight:400;margin-left:10px}
+.plinks{display:flex;flex-wrap:wrap;gap:10px;margin-top:18px}
+.plinks .go{font-size:16px;padding:10px 18px}
+.due{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 14px;margin-top:36px;padding:18px 22px;background:var(--bg-2);border-radius:14px;color:var(--fg);max-width:var(--read)}
+.due:hover{text-decoration:none}
+.due strong{font-size:22px;font-weight:600;color:var(--warn)}
+.due span{font-size:18px}
+.due em{font-style:normal;color:var(--accent);font-size:17px;margin-left:auto}
+
+/* ---------- tags: what kind of information ---------- */
+.mk{display:inline-block;font:500 14px/1 var(--f);color:var(--fg-2);background:var(--bg-2);border-radius:6px;padding:6px 9px;white-space:nowrap;vertical-align:.15em}
+.mk.gap{color:var(--warn)}
+
+/* ---------- sections ---------- */
+.sheet{padding-bottom:24px}
+.sec{padding-block:clamp(48px,7vw,88px);border-top:1px solid var(--line)}
+.sheet>.sec:first-child{border-top:0;padding-top:clamp(40px,6vw,64px)}
+.sec>header{max-width:var(--read);margin-bottom:clamp(28px,4vw,44px)}
+.sec>header h2{font-size:clamp(34px,4.4vw,52px);line-height:1.15;display:flex;flex-wrap:wrap;align-items:center;gap:10px 16px}
+.sec>header p{margin-top:14px;font-size:18px;line-height:1.65;color:var(--fg-2)}
+.sec>header .mk{margin-top:16px}
+.body{min-width:0}
+.lead{font-size:clamp(24px,2.7vw,30px);line-height:1.6;font-weight:500;max-width:var(--read)}
+.note{font-size:17px;line-height:1.65;color:var(--fg-2);max-width:var(--read)}
+
+.areas{list-style:none;margin:20px 0 0;padding:0}
+.areas li{display:grid;grid-template-columns:240px minmax(0,1fr);gap:28px;padding:22px 0;border-top:1px solid var(--line)}
+.areas .nm{font-weight:600;font-size:19px;line-height:1.45}
+.areas .nm small{display:block;font-size:15px;color:var(--fg-2);font-weight:400;margin-top:2px}
+.en-on .areas .nm small:not(.sc){display:none}
+.areas .q{font-size:clamp(21px,2.2vw,24px);line-height:1.5;font-weight:500}
+.areas .ex{font-size:17px;color:var(--fg-2);margin-top:6px}
+.areas .lbl{color:var(--fg-2);font-weight:500;margin-right:10px}
+.areas .also{margin-top:4px}
+.areas .why{color:var(--fg-2)}
+.grp{font-size:clamp(24px,2.6vw,28px);font-weight:600;line-height:1.3;margin:56px 0 0}
+.gnote{font-size:17px;line-height:1.6;color:var(--fg-2);margin:8px 0 0;max-width:46em}
+.wb{color:var(--warn);font-weight:600;font-size:15px;margin-left:6px}
+.ptags.recent{margin-top:6px}
+.ptags.recent span{background:transparent;border:1px solid var(--line);font-weight:400}
+.ptags em{font-style:normal;font-size:15px;color:var(--fg-2);align-self:center;margin-right:2px}
+.areas .theme .tag{display:block;font-size:14px;font-weight:600;color:var(--accent);margin-bottom:4px}
+.layers{margin:10px 0 0;font-size:17px}
+.layers div{display:grid;grid-template-columns:5.5em minmax(0,1fr);gap:12px;padding:6px 0;border-top:1px solid var(--line)}
+.layers div:first-child{border-top:0}
+.layers dt{color:var(--fg-2);font-weight:500}
+.layers dd{margin:0;color:var(--fg-2)}
+.admit{font-size:16px;line-height:1.5;margin-top:10px;color:var(--fg-2)}
+.admit.warn{color:var(--warn);font-weight:600}
+.prof .ref{margin:16px 0 4px;padding:14px 18px;background:var(--bg-2);border-radius:10px;font-size:15px;line-height:1.65;color:var(--fg-2)}
+.prof .ref .lbl{font-size:14px;font-weight:600;color:var(--fg-2);margin:0 0 4px}
+.prof .ref ul{margin:0 0 10px;padding-left:1.1em}
+.prof .ref ul:last-child{margin-bottom:0}
+.prof .ref a{color:var(--accent)}
+.prof .more{margin:0 0 14px}
+.prof .src{margin:14px 0 4px}
+.prof .src .lbl{font-size:15px;color:var(--fg-2);font-weight:500;margin:0 0 6px}
+.prof .src ul{margin:0;padding-left:1.2em;font-size:15.5px;line-height:1.7}
+.prof .src a{color:var(--accent)}
+.prof .more .lbl{font-size:15px;color:var(--fg-2);font-weight:500;margin:0 0 6px}
+.prof .more ul{margin:0;padding-left:1.2em;font-size:17px;line-height:1.6}
+
+
+details.row{border-top:1px solid var(--line)}
+details.row:last-of-type{border-bottom:1px solid var(--line)}
+details.row>summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:minmax(0,1fr) 24px;gap:20px;align-items:start;padding:22px 0}
+details.row>summary::-webkit-details-marker{display:none}
+.pm{width:24px;height:24px;margin-top:6px;color:var(--fg-2)}
+.pm path{stroke:currentColor;stroke-width:2;fill:none;stroke-linecap:round;transition:transform .25s ease;transform-origin:12px 12px}
+details .pm .v{transform:rotate(90deg)}
+details[open]>summary .pm .v{transform:rotate(0deg)}
+.rowin{padding:0 44px 28px 0}
+
+.prof .who{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px}
+.prof .who b{font-size:clamp(24px,2.6vw,28px);font-weight:600}
+.prof .who i,.prof .who em{font-style:normal;font-size:17px;color:var(--fg-2)}
+.prof .sum{font-size:18px;line-height:1.6;margin-top:6px;color:var(--fg-2)}
+.lines{margin:0 0 18px;padding-left:1.2em;display:grid;gap:6px}
+.lines li{font-size:19px;line-height:1.5}
+.lines li::marker{color:var(--fg-2)}
+.kv{display:grid;grid-template-columns:110px minmax(0,1fr);gap:10px 20px;font-size:17px;line-height:1.6;margin:0}
+.kv dt{color:var(--fg-2)}
+.kv dd{margin:0;min-width:0}
+
+.mats{display:grid;gap:12px}
+.mat{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:12px 28px;align-items:center;padding:24px 26px;background:var(--bg-2);border-radius:16px}
+.mat h3{font-size:clamp(21px,2.2vw,24px);font-weight:600;display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center}
+.mat p{font-size:17px;line-height:1.6;color:var(--fg-2);margin-top:8px;max-width:40em}
+.go{display:inline-flex;align-items:center;gap:6px;font:500 17px/1.3 var(--f);color:#fff;background:var(--btn);border-radius:999px;padding:12px 20px;max-width:100%}
+.go:hover{text-decoration:none;filter:brightness(1.08)}
+.go svg{width:12px;height:12px;flex:none}
+.go svg path{stroke:currentColor;stroke-width:2;fill:none}
+
+.rules{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.rule{padding:26px 26px 28px;background:var(--bg-2);border-radius:16px;min-width:0}
+.rule .big{font-size:clamp(52px,5.6vw,68px);line-height:1;font-weight:600;letter-spacing:-.02em;font-variant-numeric:tabular-nums;display:flex;flex-wrap:wrap;align-items:baseline;gap:0 8px}
+.rule .big small{font-size:20px;font-weight:600;letter-spacing:0;white-space:nowrap}
+.rule h3{font-size:21px;margin-top:14px;font-weight:600}
+.rule p{font-size:16.5px;line-height:1.65;color:var(--fg-2);margin-top:8px}
+
+.flow{overflow-x:auto}
+.flow table{border-collapse:collapse;width:100%;min-width:660px;font-size:17px}
+.flow th,.flow td{border-bottom:1px solid var(--line);padding:14px 12px;text-align:center;vertical-align:middle}
+.flow thead th{font-weight:600;color:var(--fg-2);font-size:15px}
+.flow tbody th{text-align:left;font-weight:600;white-space:nowrap;padding-left:0}
+.flow td.on{font-weight:600;font-variant-numeric:tabular-nums}
+.flow td.on::before{content:"";display:inline-block;width:10px;height:10px;border-radius:50%;background:var(--accent);margin-right:8px;vertical-align:1px}
+.flow td.opt::before{background:none;border:2px solid var(--accent)}
+.flow td.span{font-size:16px;color:var(--fg-2);text-align:left}
+.flow td.end{font-weight:600}
+
+.seg{display:inline-flex;gap:2px;background:var(--bg-2);border-radius:999px;padding:4px;margin-bottom:28px;flex-wrap:wrap}
+.seg button{font:500 16px/1.2 var(--f);background:none;border:0;color:var(--fg-2);padding:10px 18px;border-radius:999px;cursor:pointer;min-height:40px}
+.seg button[aria-pressed="true"]{background:var(--bg);color:var(--fg);box-shadow:0 1px 3px rgba(0,0,0,.12)}
+.map{display:grid;grid-template-columns:1fr 1fr 1.6fr;gap:12px}
+.tier{padding:24px;background:var(--bg-2);border-radius:16px;min-width:0}
+.tier h3{font-size:21px;font-weight:600}
+.tier h3 span{display:none}
+.tier h3 small{display:block;font-size:15px;font-weight:400;color:var(--fg-2);margin-top:2px}
+.tier ul{list-style:none;margin:16px 0 0;padding:0;display:grid;gap:0}
+.tier li{font-size:17px;line-height:1.5;padding:7px 0;border-top:1px solid var(--line)}
+.tier li small{display:none}
+.tier.grad ul{grid-template-columns:1fr 1fr;column-gap:20px}
+.mapnote{margin-top:18px}
+
+.tbl{overflow-x:auto}
+.tbl table{border-collapse:collapse;width:100%;min-width:640px;font-size:17px}
+.tbl th{font-weight:500;color:var(--fg-2);font-size:15px;text-align:left;padding:0 16px 12px 0;border-bottom:1px solid var(--line)}
+.tbl td{padding:16px 16px 16px 0;border-bottom:1px solid var(--line);vertical-align:top;line-height:1.5}
+.tbl td.code{font-size:15px;font-variant-numeric:tabular-nums;white-space:nowrap;color:var(--fg-2)}
+.tbl td.cr,.tbl th.cr{text-align:right;padding-right:0}
+.tbl td.cr{font-weight:600;font-variant-numeric:tabular-nums}
+.tbl td b{font-weight:600;font-size:18px}
+.tbl td small{display:block;font-size:14.5px;color:var(--fg-2)}
+
+.base{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+.base li{padding:24px 22px;background:var(--bg-2);border-radius:16px;font-size:clamp(20px,2.1vw,24px);font-weight:600;line-height:1.35;min-width:0}
+h3.minor{font-size:26px;font-weight:600;margin:52px 0 8px}
+.preptbl th[scope=row]{text-align:left;vertical-align:top;min-width:9em}
+.preptbl th[scope=row] b{display:block;font-weight:600}
+.preptbl th[scope=row] small{display:block;font-size:14px;color:var(--fg-2);font-weight:400;margin-top:2px}
+.preptbl td{vertical-align:top}
+.prep summary b{font-size:clamp(20px,2.1vw,23px);font-weight:600}
+.prep summary small{font-size:15px;color:var(--fg-2);margin-left:10px}
+.en-on .prep summary small{display:none}
+.task{font-size:19px;line-height:1.65;padding:18px 22px;background:var(--bg-2);border-radius:14px;margin:0 0 18px}
+.task b{display:block;font-size:15px;font-weight:600;color:var(--fg-2);margin-bottom:4px}
+
+.xlinks{display:grid;gap:0}
+.xlinks a{display:grid;grid-template-columns:48px minmax(0,1fr) 20px;gap:16px;align-items:center;padding:20px 0;border-top:1px solid var(--line);color:var(--fg)}
+.xlinks a:last-child{border-bottom:1px solid var(--line)}
+.xlinks a:hover{text-decoration:none;color:var(--accent)}
+.xlinks .qn{font-size:28px;font-weight:600;color:var(--fg-2);font-variant-numeric:tabular-nums}
+.xlinks .qt{font-size:clamp(19px,2vw,22px);font-weight:500;line-height:1.5}
+.xlinks svg{width:18px;height:18px;color:var(--accent)}
+.xlinks svg path{stroke:currentColor;stroke-width:2;fill:none}
+
+.qa-tools{display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between;margin-bottom:8px}
+.btn{font:500 16px/1.2 var(--f);background:var(--bg-2);border:0;color:var(--accent);padding:10px 18px;border-radius:999px;cursor:pointer;min-height:40px}
+.btn:hover{filter:brightness(.97)}
+.qcat{font-size:17px;font-weight:600;color:var(--fg-2);margin:48px 0 0;padding-bottom:12px}
+.qcat:first-of-type{margin-top:28px}
+details.qa{border-top:1px solid var(--line);scroll-margin-top:90px}
+details.qa:last-of-type{border-bottom:1px solid var(--line)}
+details.qa>summary{list-style:none;cursor:pointer;display:grid;grid-template-columns:56px minmax(0,1fr) 24px;gap:16px;align-items:start;padding:24px 0}
+details.qa>summary::-webkit-details-marker{display:none}
+details.qa .qn{font-size:30px;line-height:1.2;font-weight:600;color:var(--fg-2);font-variant-numeric:tabular-nums}
+details.qa[open] .qn{color:var(--accent)}
+details.qa .qq{font-size:clamp(22px,2.5vw,28px);font-weight:600;line-height:1.4}
+details.qa .pm{margin-top:8px}
+details.qa>summary:hover .qq{color:var(--accent)}
+.ans{padding:0 40px 32px 72px;display:grid;gap:18px;max-width:calc(var(--read) + 112px)}
+.ans p{font-size:clamp(19px,2vw,21px);line-height:1.85}
+.en-on .ans p{line-height:1.7}
+
+.adm{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.adm>div{padding:26px;background:var(--bg-2);border-radius:16px;min-width:0}
+.adm .big{font-size:clamp(48px,5vw,64px);line-height:1;font-weight:600;letter-spacing:-.02em;font-variant-numeric:tabular-nums}
+.adm .big small{font-size:20px;letter-spacing:0;margin-left:4px}
+.adm p{font-size:17px;color:var(--fg-2);line-height:1.6;margin-top:10px}
+.dates{list-style:none;margin:36px 0 0;padding:0}
+.dates li{display:grid;grid-template-columns:190px 120px minmax(0,1fr);gap:20px;padding:20px 0;border-top:1px solid var(--line);align-items:baseline}
+.dates li:last-child{border-bottom:1px solid var(--line)}
+.dates .d{font-size:24px;font-weight:600;font-variant-numeric:tabular-nums}
+.dates .d small{font-size:17px!important;font-weight:500;color:var(--fg-2)}
+.dates .w{font-size:20px;line-height:1.5}
+.dates .w small{display:block;font-size:16px;color:var(--fg-2);margin-top:2px}
+.dates .left{font-size:16px;font-weight:600;color:var(--warn);white-space:nowrap}
+.dates .left.past{color:var(--fg-2)}
+.docs{margin:14px 0 0;padding-left:1.4em;font-size:19px;line-height:1.8}
+.docs li::marker{color:var(--fg-2)}
+
+.band{margin-top:clamp(40px,6vw,64px);padding:28px 30px;background:var(--bg-2);border-radius:18px}
+.band h2{font-size:17px;font-weight:600;margin-bottom:14px}
+.band ul{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px 36px}
+.band li{font-size:16px;line-height:1.5;color:var(--fg-2);min-width:0}
+.band li a,.band li strong{font-weight:500;color:var(--accent)}
+.band li strong{color:var(--fg)}
+.band li span{display:block;font-size:14.5px;font-variant-numeric:tabular-nums;margin-top:2px}
+
+footer.foot{border-top:1px solid var(--line);margin-top:48px}
+footer.foot .wrap{padding-block:40px 64px}
+footer.foot h2{font-size:21px;font-weight:600}
+footer.foot ul{margin:14px 0 0;padding-left:1.2em;font-size:17px;line-height:1.8;color:var(--fg-2);columns:2;column-gap:40px}
+footer.foot p{font-size:15px;color:var(--fg-2);margin-top:20px;line-height:1.6;max-width:var(--read)}
+
+@media (max-width:980px){
+  .rules,.adm{grid-template-columns:1fr 1fr}
+  .map{grid-template-columns:1fr 1fr}
+  .tier.grad{grid-column:1/-1}
+  .base{grid-template-columns:1fr 1fr}
+  .tabs{gap:20px}
+}
+@media (max-width:760px){
+  body{font-size:19px}
+  .bar .wrap{flex-wrap:wrap;gap:0 16px;min-height:0;padding-top:10px}
+  .brand{font-size:18px}
+  .tabs{order:3;width:100%;gap:22px;overflow-x:auto;scrollbar-width:none;margin-top:4px}
+  .tabs::-webkit-scrollbar{display:none}
+  .tab{padding:10px 0 11px;font-size:17px}
+  .head{padding-block:44px 36px}
+  .areas li{grid-template-columns:1fr;gap:6px}
+    .rules,.adm{grid-template-columns:1fr}
+  .map{grid-template-columns:1fr}
+  .tier.grad ul{grid-template-columns:1fr}
+  .rowin{padding-right:0}
+  details.qa>summary{grid-template-columns:40px minmax(0,1fr) 24px;gap:12px}
+  details.qa .qn{font-size:26px}
+  .ans{padding:0 0 28px 0}
+  .kv{grid-template-columns:1fr;gap:0}
+  .kv dd{margin-bottom:12px}
+  .dates li{grid-template-columns:1fr auto;gap:4px 16px}
+  .dates .w{grid-column:1/-1}
+  .band{padding:22px 20px}
+  .band ul{grid-template-columns:1fr}
+  footer.foot ul{columns:1}
+  .mat{grid-template-columns:1fr;padding:22px 20px}
+  .mat .go{justify-self:start}
+  .due em{margin-left:0}
+}
+.nextup{position:relative;display:grid;grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"k go" "t go" "d go";align-items:center;column-gap:24px;margin:clamp(16px,3vw,32px) 0 clamp(24px,4vw,48px);padding:clamp(32px,5vw,56px) clamp(28px,5vw,64px);border-radius:28px;background:var(--bg-2);color:var(--fg);text-decoration:none;overflow:hidden;opacity:0;transform:translateY(28px);transition:opacity .7s cubic-bezier(.2,.7,.2,1),transform .7s cubic-bezier(.2,.7,.2,1),background-color .3s}
+.nextup.in{opacity:1;transform:none}
+.nextup:active .nx-go{transform:scale(.94)}
+@media (hover:hover){.nextup:hover{text-decoration:none;background:color-mix(in srgb,var(--bg-2) 88%,var(--accent))}
+.nx-k{grid-area:k;font-size:17px;font-weight:500;color:var(--fg-2)}
+.nx-t{grid-area:t;font-size:clamp(40px,6vw,72px);font-weight:700;line-height:1.08;letter-spacing:-.01em;margin-top:6px}
+.nx-d{grid-area:d;font-size:clamp(17px,1.8vw,21px);color:var(--fg-2);margin-top:12px}
+.nx-go{grid-area:go;width:clamp(56px,7vw,76px);height:clamp(56px,7vw,76px);border-radius:50%;background:var(--accent);display:grid;place-items:center;transition:transform .35s cubic-bezier(.2,.7,.2,1)}
+.nx-go svg{width:44%;height:44%;fill:none;stroke:#fff;stroke-width:2.2;stroke-linecap:round;stroke-linejoin:round}
+.nextup:hover .nx-go{transform:translateX(6px)}}
+.sheet.leave{opacity:0;transform:translateY(-14px);transition:opacity .26s ease,transform .26s ease}
+.sheet.enter{animation:sheetIn .6s cubic-bezier(.2,.7,.2,1) both}
+@keyframes sheetIn{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:none}}
+@media (max-width:640px){.nextup{border-radius:22px;column-gap:16px}}
+@media (prefers-reduced-motion:reduce){.nextup{opacity:1;transform:none}.sheet.enter{animation:none}.sheet.leave{transition:none}}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+<div id="app" class="zh-on">
+  <header class="bar">
+    <div class="wrap">
+      <a class="brand" href="#intro" data-t="brand"></a>
+      <nav class="tabs" id="tabs" aria-label="Sections"></nav>
+      <div class="lang" role="group" aria-label="Language">
+        <button type="button" id="lz" data-lang="zh" aria-pressed="true">中文</button>
+        <button type="button" id="le" data-lang="en" aria-pressed="false">EN</button>
+      </div>
+    </div>
+  </header>
+
+  <div class="wrap">
+    <div class="head">
+      <h1><span class="zh-only">資料科學與<wbr>智慧網路</span><span class="en-only">Data Science &amp; Intelligent Networking</span></h1>
+      <p class="sub" data-t="sub"></p>
+      <a class="due" href="#adm" id="due"></a>
+    </div>
+  </div>
+
+  <main class="wrap">
+    <section class="sheet" id="s-intro" aria-labelledby="tab-intro"></section>
+    <section class="sheet" id="s-courses" aria-labelledby="tab-courses" hidden></section>
+    <section class="sheet" id="s-qa" aria-labelledby="tab-qa" hidden></section>
+  </main>
+
+</div>
+
+<script type="application/json" id="data">__DATA__</script>
+<script>
+(function(){
+"use strict";
+var D = JSON.parse(document.getElementById("data").textContent);
+var app = document.getElementById("app");
+var L = "zh";
+try{ var s = localStorage.getItem("gice-lang"); if(s==="en"||s==="zh") L=s; }catch(e){}
+
+var T = {
+ brand:["臺大電信所 丙組","NTU GICE · Group C"], sub:["丙組研究涵蓋機器學習與資料科學（如圖學習、推薦系統、資料探勘）、語音、音樂、生醫資料與機器人學習，也研究隱私保護、機器遺忘與模型效率。通訊與網路方面有無線通訊、網路協定、邊緣運算、無線感測、網路量測、資安與低軌衛星；另有資訊理論、訊號處理、分子通訊與量子資訊。","Group C research covers machine learning and data science (such as graph learning, recommender systems and data mining), speech, music, biomedical data and robot learning, as well as privacy, machine unlearning and model efficiency. On the networking side there is wireless communication, network protocols, edge computing, wireless sensing, Internet measurement, security and LEO satellites; there is also information theory, signal processing, molecular communication and quantum information."],
+ mk:{off:["官方資料","Official"],his:["歷史資料","Historical"],pln:["預計開課","Planned"],inf:["整理推論","Synthesis"],exp:["學長姐經驗","Student experience"],gap:["尚未取得","Not available"]},
+ mkd:{off:["依官方規章或簡章","From official regulations or brochures"],his:["舊資料，保留日期","Older material, dated"],pln:["預計開課，非實際","Planned, not confirmed"],inf:["整理者歸納，非官方","Compiler's synthesis, unofficial"],exp:["學長姐經驗，非規章","Student experience, not policy"],gap:["沒有取得的資料","Material not available"]},
+ tabs:[["intro","認識丙組","教授・研究主題・簡報","About Group C","Faculty, research, slides"],["courses","修課與準備","規則・課程地圖・準備","Courses & prep","Rules, maps, preparation"],["qa","學長姐 Q&A","13 題・招生時程","Senior Q&A","13 answers, admission dates"]],
+ open:["開啟原始來源","Open source"],
+ due1:["所內審查課程登錄截止","Institute course registration closes"],
+ left:function(n){return L==="zh"?(n>0?"還有 "+n+" 天":n===0?"今天":"已過"):(n>0?n+" days left":n===0?"Today":"Passed");}
+};
+function t(k){var v=T[k];return Array.isArray(v)?v[L==="zh"?0:1]:v;}
+function x(o){return o? (o[L]||o.zh):"";}
+function esc(s){return String(s).replace(/[&<>"]/g,function(c){return {"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;"}[c];});}
+function mk(k){return "";}
+var LABS={
+"林澤":{lab:["跨領域資料科學與信號處理研究室（iDSSP）","Interdisciplinary Data Science & Signal Processing Lab (iDSSP)"],room:["學新館 516","Xue-Xin Hall 516"],links:[["實驗室網站","Lab website","https://www.idssp.ee.ntu.edu.tw/"]]},
+"周俊廷":{lab:["次世代無線實驗室","Next-Generation Wireless Lab"],room:["電機二館 550","EE Building II 550"],links:[["系上個人頁","EE faculty profile","https://www.ee.ntu.edu.tw/bio1.php?id=756"]]},
+"簡翌":{lab:null,room:null,links:[["個人網站","Personal website","https://sites.google.com/view/eli-chien/home"]]},
+"鄭皓中":{lab:null,room:null,links:[["系上個人頁","EE faculty profile","https://www.ee.ntu.edu.tw/bio1.php?id=1080917"],["Google Scholar","Google Scholar","https://scholar.google.com/citations?user=GOrYXgsAAAAJ"]]},
+"李宏毅":{lab:["語音處理暨機器學習研究室","Speech Processing & Machine Learning Lab"],room:["電機二館 552","EE Building II 552"],links:[["個人網站","Personal website","https://speech.ee.ntu.edu.tw/~hylee/index.php"]]},
+"謝宏昀":{lab:["行動網路暨無線通信實驗室（TONIC）","TONIC Research Group"],room:["博理館 521","BL Hall 521"],links:[["實驗室網站","Lab website","http://tonic.ee.ntu.edu.tw/"]]},
+"魏宏宇":{lab:["無線行動網路實驗室（WMNLab）","Wireless and Mobile Networking Lab"],room:["電機二館 355","EE Building II 355"],links:[["實驗室網站","Lab website","https://wmnlab.ee.ntu.edu.tw/"]]},
+"王奕翔":{lab:["網路資訊與通信研究室（NIC Lab）","Networked Information and Communications Lab"],room:["學新館 515","Xue-Xin Hall 515"],links:[["實驗室網站","Lab website","http://cc.ee.ntu.edu.tw/~ihsiangw/NICLab/NIC.html"],["個人網站","Personal website","http://cc.ee.ntu.edu.tw/~ihsiangw/"]]},
+"丁建均":{lab:["數位信號與影像處理實驗室","Digital Signal & Image Processing Lab"],room:["明達館 531","Ming-Da Hall 531"],links:[["實驗室網站","Lab website","https://disp.ee.ntu.edu.tw/"]]},
+"劉子毓":{lab:["M2 Lab","M2 Lab"],room:null,links:[["實驗室網站","Lab website","https://sites.google.com/view/joyliu-m2lab/"]]},
+"陳銘憲":{lab:["網路資料庫實驗室","Network Database Lab"],room:null,links:[["實驗室網站","Lab website","https://arbor.ee.ntu.edu.tw/"]]},
+"葉丙成":{lab:["通訊暨網路科學研究室","Communication & Network Science Lab"],room:["博理館 515","BL Hall 515"],links:[["系上個人頁","EE faculty profile","https://www.ee.ntu.edu.tw/profile1.php?teacher_id=942016"]]},
+"吳沛遠":{lab:["機器學習與估計理論研究室","Machine Learning & Estimation Theory Lab"],room:["博理館 530","BL Hall 530"],links:[["系上個人頁","EE faculty profile","https://www.ee.ntu.edu.tw/profile1.php?id=1060803"]]},
+"黃寶儀":{lab:["網路與系統實驗室","Networks & Systems Lab"],room:["博理館 621","BL Hall 621"],links:[["個人網站","Personal website","http://homepage.ntu.edu.tw/~pollyhuang/"]]},
+"孫紹華":{lab:["機器人學習實驗室（NTU Robot Learning Lab）","NTU Robot Learning Lab"],room:["學新館 518","Xue-Xin Hall 518"],links:[["實驗室網站","Lab website","https://nturll.xyz/"],["個人網站","Personal website","https://shaohua0116.github.io/"]]},
+"林宗男":{lab:["NMLAB 人工智慧與資訊安全研究室","NMLAB: AI & Information Security Lab"],room:null,links:[["實驗室網站","Lab website","https://nmlab.ntu.edu.tw/"]]},
+"廖婉君":{lab:["Internet Research Lab","Internet Research Lab"],room:null,links:[["實驗室網站","Lab website","https://kiki.ee.ntu.edu.tw/"]]},
+"蘇炫榮":{lab:["通訊及信號訊息處理實驗室","Communications and Signal Processing Lab"],room:["電機二館 532","EE Building II 532"],links:[["個人網站","Personal website","http://cc.ee.ntu.edu.tw/~hjsu/"]]},
+"楊奕軒":{lab:["音樂與人工智慧實驗室（Music and AI Lab）","Music and AI Lab"],room:["博理館 505","BL Hall 505"],links:[["實驗室網站","Lab website","https://affige.github.io/lab.html"],["個人網站","Personal website","https://affige.github.io/"]]}
+};
+function x2(a){return a[L==="zh"?0:1];}
+function pid(n){return "p-"+n.en.toLowerCase().replace(/[^a-z]+/g,"-");}
+var PBY={};D.profs.forEach(function(p){PBY[p.name.zh]=p;});
+function plk(n){var p=PBY[n];return '<a href="#'+pid(p.name)+'">'+esc(L==="zh"?p.name.zh:p.name.en)+'</a>';}
+var PM='<svg class="pm" viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14"/><path class="v" d="M5 12h14"/></svg>';
+var EXT='<svg viewBox="0 0 14 14" aria-hidden="true"><path d="M4 2h8v8M12 2 2 12"/></svg>';
+var ARW='<svg viewBox="0 0 18 18" aria-hidden="true"><path d="M3 9h12M10 4l5 5-5 5"/></svg>';
+function zhen(z,e){return L==="zh"?z:e;}
+function link(href,label){return '<a class="go" href="'+href+'" target="_blank" rel="noopener">'+label+EXT+'</a>';}
+function sec(id,h,p,marks,body){
+  return '<div class="sec" id="'+id+'"><header><h2>'+h+(marks||"")+'</h2>'+(p?'<p>'+p+'</p>':'')+'</header><div class="body">'+body+'</div></div>';
+}
+
+var ARR='<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M5 12h14M13 6l6 6-6 6"/></svg>';
+function nextUp(to){
+  var tb=T.tabs.filter(function(x){return x[0]===to;})[0];
+  var back=to==="intro";
+  return '<a class="nextup" href="#'+to+'" data-next="'+to+'"><span class="nx-k">'+(back?zhen("回到開頭","Back to the start"):zhen("下一頁","Next"))+'</span>'+
+    '<span class="nx-t">'+esc(L==="zh"?tb[1]:tb[3])+'</span><span class="nx-d">'+esc(L==="zh"?tb[2]:tb[4])+'</span><span class="nx-go">'+ARR+'</span></a>';
+}
+/* ---------- sheet 1 ---------- */
+function intro(){
+  var h='';
+  var SEP=L==="zh"?"、":", ";
+  function par(z){return L==="zh"?"（"+z+"）":" ("+z+")";}
+  function who(e){var p=PBY[e.n];return plk(e.n)+(e.why?'<span class="why">'+esc(par(x(e.why)))+'</span>':'')+(p.warn?'<span class="wb">'+zhen("本所一般生僅收乙組","general admission: Group B only")+'</span>':'');}
+  function card(c){
+    var body='<p class="q">'+esc(x(c.q))+'</p>';
+    if(c.main.length) body+='<p class="ex who-links"><span class="lbl">'+zhen("主要研究","Main research")+'</span>'+c.main.map(who).join(SEP)+'</p>';
+    if(c.lineage&&c.lineage.length) body+='<p class="ex who-links"><span class="lbl">'+zhen("研究脈絡","Research lineage")+'</span>'+c.lineage.map(who).join(SEP)+'</p>';
+    if(c.also.length) body+='<p class="ex who-links also"><span class="lbl">'+(c.alsoLabel?esc(x(c.alsoLabel)):zhen("相關研究","Related work"))+'</span>'+c.also.map(who).join(SEP)+'</p>';
+    if(c.rows) body+='<dl class="layers">'+c.rows.map(function(r){return '<div><dt>'+esc(x(r.layer))+'</dt><dd class="who-links">'+r.items.map(who).join(SEP)+'</dd></div>';}).join("")+'</dl>';
+    return '<li'+(c.theme?' class="theme"':'')+'><div class="nm">'+(c.theme?'<span class="tag">'+zhen("跨方向主題","Cross-direction theme")+'</span>':'')+esc(x(c.name))+'<small>'+esc(c.name.en)+'</small></div><div>'+body+'</div></li>';
+  }
+  h+=sec("faculty",zhen("教授與實驗室","Faculty and labs"),zhen("具體研究方向請直接與老師和學長姐聯絡。","For specific research directions, contact the professors and senior students directly."),"",
+    D.profs.map(function(p){
+      var lb=LABS[p.name.zh]||{links:[]};
+      var labline=lb.lab?'<p class="labn">'+esc(x2(lb.lab))+(lb.room?'<span>'+esc(x2(lb.room))+'</span>':'')+'</p>':'';
+      return '<details class="row prof" id="'+pid(p.name)+'"><summary><div><div class="who"><b>'+esc(L==="zh"?p.name.zh:p.name.en)+'</b><i>'+esc(L==="zh"?p.name.en:p.name.zh)+'</i>'+(p.title?'<em>'+esc(x(p.title))+'</em>':'')+'</div>'+
+        '<p class="ptags"><em>'+esc(p.label?x(p.label):zhen("主要研究","Main research"))+'</em>'+p.tags.map(function(t){return '<span>'+esc(x(t))+'</span>';}).join("")+'</p>'+
+        (p.extra?'<p class="ptags recent"><em>'+esc(x(p.extra.label))+'</em>'+p.extra.items.map(function(t){return '<span>'+esc(x(t))+'</span>';}).join("")+'</p>':'')+
+        '<p class="sum">'+esc(x(p.summary))+'</p>'+(p.admit?'<p class="admit'+(p.warn?' warn':'')+'">'+esc(x(p.admit))+'</p>':'')+'</div>'+PM+'</summary><div class="rowin">'+
+        labline+
+        (p.note?'<p class="pnote">'+esc(x(p.note))+'</p>':'')+
+        ((p.more&&p.more.length)||(p.src&&p.src.length)?'<div class="ref">'+
+          (p.more&&p.more.length?'<p class="lbl">'+(p.moreLabel?esc(x(p.moreLabel)):zhen("其他研究（參考）","Other work (for reference)"))+'</p><ul>'+p.more.map(function(m){return '<li>'+esc(x(m))+'</li>';}).join("")+'</ul>':'')+
+          (p.src&&p.src.length?'<p class="lbl">'+zhen("資料來源","Sources")+'</p><ul>'+p.src.map(function(r){return '<li><a href="'+r.u+'" target="_blank" rel="noopener">'+esc(L==="zh"?r.zh:r.en)+'</a></li>';}).join("")+'</ul>':'')+
+        '</div>':'')+
+        '<div class="plinks">'+lb.links.map(function(k){return '<a class="go" href="'+k[2]+'" target="_blank" rel="noopener">'+(L==="zh"?k[0]:k[1])+EXT+'</a>';}).join("")+'</div>'+
+      '</div></details>';}).join(""));
+  h+=sec("overview",zhen("依研究主題找老師","Find professors by research topic"),"","",
+    
+    D.groups.map(function(g){
+      return '<h3 class="grp">'+esc(x(g.name))+'</h3>'+(g.note?'<p class="gnote">'+esc(x(g.note))+'</p>':'')+'<ul class="areas">'+g.cards.map(card).join("")+'</ul>';
+    }).join(""));
+  h+=sec("materials",zhen("簡報與官方介紹","Slides and official page"),"","",
+    '<div class="mats">'+
+    '<div class="mat"><div><h3>'+zhen("丙組介紹簡報","Group introduction slides")+mk("his")+'</h3><p>'+zhen("20 頁中文介紹簡報。招生資訊請以 116 學年度簡章為準。","A 20-page Chinese introduction deck. For admission details, use the AY116 brochure.")+'</p></div>'+link("https://speech.ee.ntu.edu.tw/~tlkagk/DS_introduction.pdf",zhen("開啟簡報","Open slides"))+'</div>'+
+    '<div class="mat"><div><h3>'+zhen("官方資網組介紹","Official group overview")+mk("off")+'</h3><p>'+zhen("電信所官網上的丙組介紹。","The institute's own Group C page.")+'</p></div>'+link("https://gice.ntu.edu.tw/DS.php",zhen("開啟官方頁","Open official page"))+'</div>'+
+    '</div>');
+  h+=nextUp("courses");
+  return h;
+}
+
+/* ---------- sheet 2 ---------- */
+var RULES=[
+ {n:"24",u:["學分","credits"],h:["最低畢業學分","Minimum degree credits"],p:["至少 24 學分；碩士論文、專題演講、專題討論、專題研究及外國語文不計入。另須完成碩士論文並通過口試。","At least 24 credits, excluding the thesis, Colloquium, Seminar, Special Research and foreign-language courses. A thesis and oral defense are also required."]},
+ {n:"12",u:["學分","credits"],h:["本組課程認定","Group-course recognition"],p:["至少 12 學分屬本組課程，由指導教授依研究領域認定。","At least 12 credits must be group courses, as recognized by your advisor for your research field."]},
+ {n:"4",u:["學期","semesters"],h:["專題討論","Seminar"],p:["前四學期每學期必修（942 M0050，0 學分）。其中一學期經指導教授及所長同意，得改修電資學院相關系所的專題討論。","Required in each of the first four semesters (942 M0050, 0 credits). With advisor and director approval, one semester may be replaced by a related EECS seminar."]},
+ {n:"1",u:["學分・每學期","credit · every term"],h:["專題研究","Special Research"],p:["在學期間每學期必修（942 M0040，1 學分）；修畢四學期以上者，經指導教授及所長同意，得免修一學期。","Required every semester (942 M0040, 1 credit). After four semesters, one semester may be waived with advisor and director approval."],cjk:true},
+ {n:"1",u:["學期","semester"],h:["專題演講","Colloquium"],p:["一年級必修一學期（942 M0020，1 學分）。","Required for one semester in the first year (942 M0020, 1 credit)."]},
+ {n:"111",u:["學年度起","onward"],h:["不得雙主修","No double major"],p:["自 111 學年度起，本所學生不得申請雙主修。U 字頭以外的大學部課程不計入最低畢業學分。","From academic year 111, students may not add a double major. Undergraduate courses other than U-level do not count toward minimum credits."]}
+];
+var mapSel="gice";
+function tierBlock(list){
+  return '<div class="map">'+list.map(function(tr,i){
+    var nm = {"基礎／大學部必修":["基礎<small>大學部必修</small>","Foundation<small>UG required</small>"],"延伸／大學部選修":["延伸<small>大學部選修</small>","Extension<small>UG elective</small>"],"研究所方向":["研究所<small>研究所方向</small>","Graduate<small>Graduate directions</small>"]}[tr.tier]||[tr.tier,tr.tier];
+    return '<div class="tier'+(i===2?' grad':'')+'"><h3><span>'+(i+1)+'</span>'+nm[L==="zh"?0:1]+'</h3><ul>'+tr.items.map(function(c){return '<li>'+esc(x(c))+'<small>'+esc(c.en)+'</small></li>';}).join("")+'</ul></div>';}).join("")+'</div>';
+}
+function mapNote(){
+  return mapSel==="gice"
+   ? '<p class="note mapnote">'+zhen("電信所課程圖，2019 年 5 月版。原圖雙框是必修，單框是推薦。","GICE course map, May 2019 edition. Double borders mark required courses; single borders mark recommended ones.")+'</p>'
+   : '<p class="note mapnote">'+zhen("電機系「資料科學與智慧網路」課程圖。","NTUEE Data Science and Intelligent Networking course map.")+'</p>';
+}
+function courses(){
+  var h='';
+  h+=sec("rules",zhen("六條正式規則","Six official rules"),zhen("電信所碩士班修業規定。","GICE master's degree regulations."),mk("off"),
+    '<div class="rules">'+RULES.map(function(r){
+      var n=Array.isArray(r.n)?r.n[L==="zh"?0:1]:r.n;
+      return '<div class="rule"><div class="big'+(r.cjk&&L==="zh"?' cjk':'')+'">'+esc(n)+'<small>'+r.u[L==="zh"?0:1]+'</small></div><h3>'+r.h[L==="zh"?0:1]+'</h3><p>'+r.p[L==="zh"?0:1]+'</p></div>';}).join("")+'</div>');
+  var S=zhen(["碩一上","碩一下","碩二上","碩二下","畢業前"],["Y1 fall","Y1 spring","Y2 fall","Y2 spring","Before graduating"]);
+  h+=sec("flow",zhen("修課流程","Degree timeline"),"",mk("off"),
+    '<div class="flow"><table><thead><tr><th scope="col"></th>'+S.map(function(s){return '<th scope="col">'+s+'</th>';}).join("")+'</tr></thead><tbody>'+
+    '<tr><th scope="row">'+zhen("專題研究","Special Research")+'</th><td class="on">1</td><td class="on">1</td><td class="on">1</td><td class="on">1</td><td class="span">'+zhen("在學期間每學期","Every enrolled semester")+'</td></tr>'+
+    '<tr><th scope="row">'+zhen("專題討論","Seminar")+'</th><td class="on">0</td><td class="on">0</td><td class="on">0</td><td class="on">0</td><td class="span">'+zhen("前四學期","First four semesters")+'</td></tr>'+
+    '<tr><th scope="row">'+zhen("專題演講","Colloquium")+'</th><td class="on opt">1</td><td class="on opt">1</td><td></td><td></td><td class="span">'+zhen("一年級擇一學期","One semester in year 1")+'</td></tr>'+
+    '<tr><th scope="row">'+zhen("課程學分","Course credits")+'</th><td colspan="4" class="span">'+zhen("合計至少 24 學分，其中至少 12 學分為本組課程","At least 24 credits in total, at least 12 of them group courses")+'</td><td class="end">24</td></tr>'+
+    '<tr><th scope="row">'+zhen("碩士論文","Thesis")+'</th><td colspan="4" class="span">'+zhen("研究與撰寫","Research and writing")+'</td><td class="end">'+zhen("口試","Defense")+'</td></tr>'+
+    '</tbody></table></div><p class="note" style="margin-top:12px">'+zhen("格內數字是學分數。實心圓點是該學期必修，空心圓點是一年級兩學期選一學期修。","Numbers are credits. A filled dot means required that semester; a hollow dot means take it in either semester of year 1.")+'</p>');
+  h+=sec("map",zhen("課程地圖","Course map"),"",mk("his"),
+    '<div class="seg" role="group" aria-label="'+zhen("選擇課程圖","Choose map")+'"><button type="button" id="m-gice" data-map="gice" aria-pressed="'+(mapSel==="gice")+'">'+zhen("電信所 2019 版","GICE 2019")+'</button><button type="button" id="m-ntuee" data-map="ntuee" aria-pressed="'+(mapSel==="ntuee")+'">'+zhen("電機系版","NTUEE")+'</button></div><div id="mapbox">'+tierBlock(D[mapSel])+mapNote()+'</div>');
+  h+=sec("planned",zhen("115-1 預計開課","Planned for 115-1"),zhen("115 學年度上學期預計開的 14 門課。實際開課以臺大課程網為準。","14 courses planned for fall 2026 (115-1). The NTU course system has the final list."),mk("pln"),
+    '<div class="tbl"><table><thead><tr><th scope="col">'+zhen("課號","Code")+'</th><th scope="col">'+zhen("課名","Course")+'</th><th scope="col">'+zhen("教師","Instructor")+'</th><th scope="col" class="cr">'+zhen("學分","Cr")+'</th></tr></thead><tbody>'+
+    D.planned.map(function(c){return '<tr><td class="code">'+esc(c.code)+(/^\d+$/.test(c.cls)?' · '+esc(c.cls):'')+'</td><td><b>'+esc(x(c.name))+'</b>'+(L==="zh"?'<small>'+esc(c.name.en)+'</small>':'')+'</td><td>'+c.t.map(function(p){return esc(x(p));}).join(L==="zh"?"、":", ")+'</td><td class="cr">'+esc(c.cr)+'</td></tr>';}).join("")+
+    '</tbody></table></div><div style="margin-top:20px">'+link("https://course.ntu.edu.tw/search/quick",zhen("到臺大課程網查實際開課","Check actual offerings on NTU course search"))+'</div>');
+  h+=sec("prep",zhen("研究準備","Research preparation"),zhen("先打好四項共同基礎，再依研究大類補強。","Build four shared foundations first, then add what your research area needs."),mk("inf"),
+    '<ol class="base">'+[["線性代數","Linear algebra"],["機率與統計","Probability & statistics"],["資料結構與演算法","Data structures & algorithms"],["程式設計","Programming"]].map(function(b,i){return '<li>'+b[L==="zh"?0:1]+'</li>';}).join("")+'</ol>'+
+    '<h3 class="minor">'+zhen("依大類補強","What to add by area")+'</h3>'+
+    '<ul class="areas">'+D.prep.map(function(p){return '<li><div class="nm">'+esc(x(p.name))+(p.scope?'<small class="sc">'+esc(x(p.scope))+'</small>':'')+'</div><div><p class="q">'+esc(x(p.add))+'</p><p class="ex"><span class="lbl">'+zhen("115-1 相關課程","Related 115-1 courses")+'</span>'+p.courses.map(function(c){return esc(x(c));}).join(L==="zh"?"、":", ")+'</p></div></li>';}).join("")+'</ul>');
+  h+=sec("experience",zhen("修課心得","Course experience"),zhen("學長姐對修課的經驗，寫在 Q&A 這三題。","Seniors' advice on coursework is in these three Q&A answers."),mk("exp"),
+    '<div class="xlinks">'+[9,10,11].map(function(n){var q=D.qa[n-1];return '<a href="#q'+n+'" data-q="'+n+'"><span class="qn">'+n+'</span><span class="qt">'+esc(x(q.q))+'</span>'+ARW+'</a>';}).join("")+'</div>');
+  h+=nextUp("qa");
+  return h;
+}
+
+/* ---------- sheet 3 ---------- */
+var DATES=[
+ {d:"2026-10-07",tm:"24:00",w:["臺大網路報名截止","NTU online registration closes"],s:["報名期間自 9/30 起。","Registration opened on 9/30."]},
+ {d:"2026-10-08",tm:"17:00",w:["報名資料上傳截止","Document upload closes"],s:["成績單、就學計畫等文件上傳到臺大甄試報名系統。","Upload transcripts, statement of purpose and other documents to the NTU admission system."]},
+ {d:"2026-10-08",tm:"17:00",w:["電信所審查課程登錄截止","GICE course registration closes"],s:["臺大報名上傳期間，也要到電信所網頁登錄，兩邊都要完成。","During the NTU upload period, also register on the GICE site. Both are required."]},
+ {d:"2026-10-28",tm:"12:00",w:["公告口試名單、時間與地點","Interview list, times and rooms posted"],s:["不另行通知。","No separate notice."]},
+ {d:"2026-11-05",d2:"11-06",w:["口試","Interviews"],s:["個別時間另行公告。","Individual times announced separately."]}
+];
+var DOCS=[["學位證書或在學證明","Degree certificate or proof of enrollment"],["歷年成績單","Complete transcript"],["學業成績總平均名次證明書","Class-ranking certificate"],["就學計畫（Statement of Purpose）","Statement of Purpose"],["報名承諾書（須簽名）","Signed application commitment"],["所內審查課程登錄","Institute course registration"]];
+function daysTo(iso){var now=new Date();var tz=new Date(now.getTime()+ (now.getTimezoneOffset()+480)*60000);var a=Date.UTC(tz.getFullYear(),tz.getMonth(),tz.getDate());var p=iso.split("-");var b=Date.UTC(+p[0],+p[1]-1,+p[2]);return Math.round((b-a)/864e5);}
+function qaSheet(){
+  var h='';
+  var cats=[],by={};
+  D.qa.forEach(function(q){var k=q.cat.zh;if(!by[k]){by[k]=[];cats.push(q.cat);}by[k].push(q);});
+  h+=sec("qa-list",zhen("學長姐 Q&A","Senior Q&A"),zhen("學長姐的經驗分享。","Advice from senior students."),mk("exp"),
+    '<div class="qa-tools"><p class="note">'+zhen("","The Chinese answers are the source text; English is an editorial translation.")+'</p><button class="btn" type="button" id="all">'+zhen("全部展開","Expand all")+'</button></div>'+
+    cats.map(function(c){return '<h3 class="qcat">'+esc(x(c))+'</h3>'+by[c.zh].map(function(q){
+      return '<details class="qa" id="q'+q.n+'"><summary><span class="qn">'+q.n+'</span><span class="qq">'+esc(x(q.q))+'</span>'+PM+'</summary><div class="ans">'+q.a[L].map(function(p){return '<p>'+esc(p)+'</p>';}).join("")+'</div></details>';}).join("");}).join(""));
+  h+=sec("adm",zhen("116 甄試紀錄","Admission record, AY116"),zhen("丙組一般生，組別代碼 9100。時間均為臺北時間；正式規定以招生簡章及電信所公告為準。","Group C general applicants, code 9100. All times are Taipei time; the brochure and GICE announcements are authoritative."),mk("off"),
+    '<div class="adm"><div><div class="big">35<small>'+zhen("名","places")+'</small></div><p>'+zhen("招生名額","Admission places")+'</p></div>'+
+    '<div><div class="big">50<small>%</small></div><p>'+zhen("資料審查 50%、口試 50%，無筆試","Document review 50%, interview 50%; no written exam")+'</p></div>'+
+    '<div><div class="big">80<small>／</small>95</div><p>'+zhen("審查 80 分以上可參加口試；95 分以上優先錄取、免口試","Review ≥80 qualifies for interview; ≥95 means priority admission without interview")+'</p></div></div>'+
+    '<ul class="dates">'+DATES.map(function(d){var n=daysTo(d.d);return '<li><span class="d">'+d.d.slice(5).replace("-","/")+(d.d2?'–'+d.d2.slice(3):'')+(d.tm?' <small style="font-size:15px">'+d.tm+'</small>':'')+'</span><span class="left'+(n<0?' past':'')+'">'+T.left(n)+'</span><span class="w">'+d.w[L==="zh"?0:1]+'<small>'+d.s[L==="zh"?0:1]+'</small></span></li>';}).join("")+'</ul>'+
+    '<h3 class="minor" style="margin-top:32px">'+zhen("必繳文件","Required documents")+'</h3><ol class="docs">'+DOCS.map(function(d){return '<li>'+d[L==="zh"?0:1]+'</li>';}).join("")+'</ol>'+
+    '<p class="note" style="margin-top:10px">'+zhen("選繳：推薦函至多一封（由推薦人上傳）；其他有利審查資料合成一份 PDF。逾期不補件。","Optional: at most one recommendation letter (uploaded by the recommender); other supporting material combined into one PDF. Late documents are not accepted.")+'</p>'+
+    '<div style="margin-top:22px">'+link("https://exam.aca.ntu.edu.tw/graf/brochure/116/221.pdf",zhen("開啟 116 丙組甄試簡章","Open the AY116 Group C brochure"))+'</div>');
+  h+=nextUp("intro");
+  return h;
+}
+
+/* ---------- chrome ---------- */
+var cur="intro";
+function renderTabs(){
+  document.getElementById("tabs").innerHTML=T.tabs.map(function(tb){
+    return '<a class="tab" id="tab-'+tb[0]+'" href="#'+tb[0]+'"'+(tb[0]===cur?' aria-current="page"':'')+'>'+(L==="zh"?tb[1]:tb[3])+'</a>';}).join("");
+}
+function renderStatic(){
+  app.className=L==="zh"?"zh-on":"en-on";
+  document.documentElement.lang=L==="zh"?"zh-Hant-TW":"en";
+  [].forEach.call(document.querySelectorAll("[data-t]"),function(el){el.textContent=t(el.getAttribute("data-t"));});
+  document.getElementById("lz").setAttribute("aria-pressed",L==="zh");
+  document.getElementById("le").setAttribute("aria-pressed",L==="en");
+  var DL=[{a:[2026,10,7,24,0],d:"2026-10-07",tt:"10/07 24:00",w:zhen("網路報名截止","Online registration closes"),rest:zhen("；10/08 17:00 資料上傳及電信所審查課程登錄截止","; 10/08 17:00 document upload and GICE course registration close")},
+           {a:[2026,10,8,17,0],d:"2026-10-08",tt:"10/08 17:00",w:zhen("資料上傳及電信所審查課程登錄截止","Document upload and GICE course registration close"),rest:""}];
+  var now=Date.now(),nx=null;
+  DL.forEach(function(k){var ms=Date.UTC(k.a[0],k.a[1]-1,k.a[2],k.a[3]-8,k.a[4]);if(!nx&&ms>now)nx=k;});
+  document.getElementById("due").innerHTML=(nx?'<strong>'+nx.tt+'・'+T.left(daysTo(nx.d))+'</strong><span>'+nx.w+nx.rest+zhen("（116 甄試，臺北時間）"," (AY116, Taipei time)")+'</span>':'<strong>'+zhen("116 甄試時程","AY116 admission dates")+'</strong><span>'+zhen("口試名單與口試日期","Interview list and dates")+'</span>')+'<em>'+zhen("查看時程","See dates")+'</em>';
+  document.title=L==="zh"?"臺大電信所丙組":"NTU GICE Group C";
+}
+var built={};
+function renderSheets(){
+  built={};
+  document.getElementById("s-intro").innerHTML=intro();
+  document.getElementById("s-courses").innerHTML=courses();
+  document.getElementById("s-qa").innerHTML=qaSheet();
+}
+var io=("IntersectionObserver" in window)?new IntersectionObserver(function(es){es.forEach(function(en){if(en.isIntersecting){en.target.classList.add("in");io.unobserve(en.target);}});},{threshold:.25}):null;
+function watchNext(){[].forEach.call(document.querySelectorAll(".nextup:not(.in)"),function(n){if(io)io.observe(n);else n.classList.add("in");});}
+function show(id,anim){
+  cur=id;
+  ["intro","courses","qa"].forEach(function(k){document.getElementById("s-"+k).hidden=(k!==id);});
+  renderTabs();
+  var s=document.getElementById("s-"+id);
+  if(anim){s.classList.remove("enter");void s.offsetWidth;s.classList.add("enter");}
+  watchNext();
+}
+function route(anim){
+  var h=(location.hash||"").slice(1);
+  var target=null,sheet="intro";
+  if(/^q\d+$/.test(h)){sheet="qa";target=h;}
+  else if(h==="adm"||h==="qa-list"){sheet="qa";target=h;}
+  else if(["intro","courses","qa"].indexOf(h)>=0){sheet=h;}
+  else if(document.getElementById(h)){var el=document.getElementById(h);var p=el.closest(".sheet");if(p)sheet=p.id.slice(2);target=h;}
+  show(sheet,anim && sheet!==cur);
+  if(target){var el2=document.getElementById(target);if(el2){if(el2.tagName==="DETAILS")el2.open=true;var go=function(){var tb=document.querySelector(".bar").getBoundingClientRect().height;window.scrollTo({top:el2.getBoundingClientRect().top+window.scrollY-tb-12,behavior:"instant"});};requestAnimationFrame(go);if(document.fonts&&document.fonts.ready)document.fonts.ready.then(function(){requestAnimationFrame(go);});}}
+  else if(anim){var mn=document.querySelector("main");var bh=document.querySelector(".bar").getBoundingClientRect().height;var y=mn.getBoundingClientRect().top+window.scrollY-bh;window.scrollTo({top:y,behavior:"instant"});}
+}
+function setLang(l){
+  if(l===L)return; L=l;
+  try{localStorage.setItem("gice-lang",L);}catch(e){}
+  var open=[].map.call(document.querySelectorAll("details[open]"),function(d){return d.id;}).filter(Boolean);
+  renderStatic();renderSheets();show(cur,false);
+  open.forEach(function(id){var d=document.getElementById(id);if(d)d.open=true;});
+}
+document.addEventListener("click",function(e){
+  var nu=e.target.closest("[data-next]");
+  if(nu){e.preventDefault();var to=nu.getAttribute("data-next");var curS=document.getElementById("s-"+cur);
+    var rm=window.matchMedia&&window.matchMedia("(prefers-reduced-motion: reduce)").matches;
+    if(rm){location.hash=to;return;}
+    curS.classList.add("leave");setTimeout(function(){curS.classList.remove("leave");location.hash=to;},260);return;}
+  var b=e.target.closest("[data-lang]");if(b){setLang(b.getAttribute("data-lang"));return;}
+  var m=e.target.closest("[data-map]");if(m){mapSel=m.getAttribute("data-map");
+    [].forEach.call(document.querySelectorAll("[data-map]"),function(x){x.setAttribute("aria-pressed",x.getAttribute("data-map")===mapSel);});
+    document.getElementById("mapbox").innerHTML=tierBlock(D[mapSel])+mapNote();return;}
+  if(e.target.closest("#all")){var ds=document.querySelectorAll("details.qa");var any=[].some.call(ds,function(d){return !d.open;});
+    [].forEach.call(ds,function(d){d.open=any;});e.target.closest("#all").textContent=any?zhen("全部收合","Collapse all"):zhen("全部展開","Expand all");return;}
+});
+window.addEventListener("hashchange",function(){route(true);});
+renderStatic();renderSheets();route(false);
+})();
+</script>
